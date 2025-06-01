@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Low Inventory Alert</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .content {
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .alert {
+      background-color: #ffecb3;
+      border-left: 4px solid #FF9800;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    .alert-title {
+      color: #FF6F00;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      color: #777;
+    }
+    .button {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      margin-top: 15px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Low Inventory Alert</h1>
+    </div>
+    <div class="content">
+      <p>Hello {{vendorName}},</p>
+      
+      <div class="alert">
+        <h3 class="alert-title">⚠️ Low Stock Alert</h3>
+        <p>One of your products has reached low inventory levels and may need restocking soon.</p>
+      </div>
+      
+      <h2>Product Details:</h2>
+      <table>
+        <tr>
+          <th>Product</th>
+          <td>{{productName}}</td>
+        </tr>
+        <tr>
+          <th>Product ID</th>
+          <td>{{productId}}</td>
+        </tr>
+        <tr>
+          <th>Current Stock</th>
+          <td><strong>{{currentStock}} units</strong></td>
+        </tr>
+        <tr>
+          <th>Low Stock Threshold</th>
+          <td>{{threshold}} units</td>
+        </tr>
+      </table>
+      
+      <p>We recommend restocking this product soon to avoid running out of inventory and potentially missing sales.</p>
+      
+      <p>
+        <a href="{{dashboardUrl}}" class="button">Update Inventory</a>
+      </p>
+      
+      <p>Thank you for being a valued vendor on our platform.</p>
+      
+      <p>Best regards,<br>Yunike Marketplace Team</p>
+    </div>
+    <div class="footer">
+      <p>This is an automated message. Please do not reply directly to this email.</p>
+      <p>© {{currentYear}} Yunike Marketplace. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html> 
