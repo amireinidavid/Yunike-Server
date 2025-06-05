@@ -15,6 +15,7 @@ import authRoutes from './routes/authRoutes';
 import stripeRoutes from './routes/stripeRoutes';
 import accountRoutes from './routes/accountRoutes';
 import productRoutes from './routes/productRoutes';
+import customerAccountRoutes from './routes/customerAccountRoute';
 
 // Services
 import { redisClient } from './services/redisService';
@@ -213,6 +214,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/stripe', stripeRoutes);
 app.use('/api/account', accountRoutes);
 app.use('/api/products', productRoutes);
+app.use('/api/customer', customerAccountRoutes);
 
 // Error handling middleware
 app.use((err: Error, req: Request, res: Response, _next: NextFunction) => {

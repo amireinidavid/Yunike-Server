@@ -1351,3 +1351,214 @@
 2025-05-31 18:32:52:3252 [32minfo[39m: [32mSubscribed to app:events channel[39m
 2025-05-31 19:44:01:441 [32minfo[39m: [32mCache service connected to Redis[39m
 2025-05-31 19:44:01:441 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-01 14:14:55:1455 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-01 14:14:57:1457 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-01 14:14:58:1458 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-01 14:15:01:151 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-03 16:36:45:3645 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-03 16:36:47:3647 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-03 16:36:47:3647 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-03 16:36:52:3652 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-03 20:03:17:317 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-03 20:03:17:317 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-03 20:03:17:317 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-03 20:03:17:317 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-03 20:04:29:429 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-03 20:04:29:429 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-03 20:04:29:429 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-03 20:04:30:430 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-03 20:05:04:54 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-03 20:05:04:54 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-03 20:05:04:54 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-03 20:05:04:54 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-04 17:04:01:41 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-04 17:04:02:42 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-04 17:04:02:42 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-04 17:04:03:43 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-04 17:09:20:920 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-04 17:09:20:920 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-04 17:09:20:920 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-04 17:09:20:920 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-04 17:13:10:1310 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-04 17:13:10:1310 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-04 17:13:11:1311 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-04 17:13:12:1312 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-04 18:08:37:837 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-04 18:08:39:839 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-04 18:08:39:839 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-04 18:08:40:840 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-04 19:51:31:5131 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 19:51:31:5131 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 19:51:31:5131 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-04 19:51:31:5131 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-04 19:51:58:5158 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 19:51:58:5158 [34mdebug[39m: [34mCache set: products:/api/products?sort=price_asc&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 19:52:16:5216 [34mdebug[39m: [34mRecorded search query: nivea[39m
+2025-06-04 19:52:16:5216 [34mdebug[39m: [34mCache set: products:/api/products?query=nivea&category=books&minPrice=2500&sort=price_asc&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 19:52:23:5223 [34mdebug[39m: [34mRecorded search query: ni[39m
+2025-06-04 19:52:23:5223 [34mdebug[39m: [34mCache set: products:/api/products?query=ni&category=books&minPrice=2500&sort=price_asc&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 19:52:28:5228 [34mdebug[39m: [34mCache set: products:/api/products?category=books&minPrice=2500&sort=price_asc&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 19:52:28:5228 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 19:52:38:5238 [34mdebug[39m: [34mCache set: products:/api/products?category=books&minPrice=2500&sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 19:52:38:5238 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 19:52:40:5240 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-04 19:52:40:5240 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-04 19:52:49:5249 [34mdebug[39m: [34mCache hit: products:/api/products?sort=price_asc&page=1&limit=12[39m
+2025-06-04 19:52:49:5249 [34mdebug[39m: [34mCache hit for products:/api/products?sort=price_asc&page=1&limit=12[39m
+2025-06-04 19:52:54:5254 [34mdebug[39m: [34mCache set: products:/api/products?sort=popular&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 19:52:54:5254 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 21:06:57:657 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-04 21:06:58:658 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-04 21:06:58:658 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-04 21:06:58:658 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-04 21:08:48:848 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 21:08:49:849 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 21:18:41:1841 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 21:18:43:1843 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 21:33:34:3334 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-04 21:33:36:3336 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-04 21:33:36:3336 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-04 21:33:36:3336 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-04 21:47:25:4725 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-04 21:47:26:4726 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-04 21:47:26:4726 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-04 21:47:26:4726 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-04 21:49:08:498 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-04 21:49:09:499 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-04 21:49:09:499 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-04 21:49:09:499 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-04 21:53:54:5354 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 21:53:54:5354 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 21:53:55:5355 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-04 21:53:55:5355 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-04 21:54:33:5433 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 21:54:33:5433 [34mdebug[39m: [34mCache set: products:/api/products?sort=price_asc&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 21:54:52:5452 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 21:54:52:5452 [34mdebug[39m: [34mCache set: products:/api/products?sort=price_asc&page=3&limit=12 (TTL: 300s)[39m
+2025-06-04 21:55:08:558 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 21:55:08:558 [34mdebug[39m: [34mCache set: products:/api/products?sort=price_asc&page=4&limit=12 (TTL: 300s)[39m
+2025-06-04 21:56:50:5650 [34mdebug[39m: [34mCache set: products:/api/products?sort=price_asc&page=30&limit=12 (TTL: 300s)[39m
+2025-06-04 21:56:50:5650 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 21:56:55:5655 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 21:56:55:5655 [34mdebug[39m: [34mCache set: products:/api/products?sort=price_asc&page=29&limit=12 (TTL: 300s)[39m
+2025-06-04 21:57:24:5724 [34mdebug[39m: [34mCache hit: products:/api/products?sort=price_asc&page=1&limit=12[39m
+2025-06-04 21:57:24:5724 [34mdebug[39m: [34mCache hit for products:/api/products?sort=price_asc&page=1&limit=12[39m
+2025-06-04 21:57:43:5743 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-04 21:57:43:5743 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-04 21:58:08:588 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 21:58:08:588 [34mdebug[39m: [34mCache set: products:/api/products?category=electronics&minPrice=57.60167349353781&maxPrice=819.2324260312413&sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 22:04:56:456 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 22:04:56:456 [34mdebug[39m: [34mCache set: products:/api/products?minPrice=57.60167349353781&maxPrice=819.2324260312413&sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 22:05:04:54 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 22:05:04:54 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 22:12:38:1238 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-04 22:12:39:1239 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 22:13:34:1334 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 22:13:34:1334 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=2&limit=12 (TTL: 300s)[39m
+2025-06-04 22:20:11:2011 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 22:20:11:2011 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=2&limit=12 (TTL: 300s)[39m
+2025-06-04 22:20:43:2043 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-04 22:20:43:2043 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=3&limit=12 (TTL: 300s)[39m
+2025-06-05 06:47:45:4745 [31merror[39m: [31mSearch products error: [39m
+[31mInvalid `prisma.product.findMany()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\searchService.ts:142:24[39m
+
+[31m  139 [39m
+[31m  140 // Execute the search query[39m
+[31m  141 const [products, total] = await Promise.all([[39m
+[31m→ 142   prisma.product.findMany([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:47:45:4745 [31merror[39m: [31mProduct search error: [39m
+[31mInvalid `prisma.product.findMany()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\searchService.ts:142:24[39m
+
+[31m  139 [39m
+[31m  140 // Execute the search query[39m
+[31m  141 const [products, total] = await Promise.all([[39m
+[31m→ 142   prisma.product.findMany([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:47:46:4746 [31merror[39m: [31mError recording search query: [39m
+[31mInvalid `prisma.searchQuery.create()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\analyticsService.ts:97:32[39m
+
+[31m  94 }[39m
+[31m  95 [39m
+[31m  96 // Create record in database[39m
+[31m→ 97 await prisma.searchQuery.create([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:52:40:5240 [31merror[39m: [31mSearch products error: [39m
+[31mInvalid `prisma.product.findMany()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\searchService.ts:142:24[39m
+
+[31m  139 [39m
+[31m  140 // Execute the search query[39m
+[31m  141 const [products, total] = await Promise.all([[39m
+[31m→ 142   prisma.product.findMany([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:52:40:5240 [31merror[39m: [31mProduct search error: [39m
+[31mInvalid `prisma.product.findMany()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\searchService.ts:142:24[39m
+
+[31m  139 [39m
+[31m  140 // Execute the search query[39m
+[31m  141 const [products, total] = await Promise.all([[39m
+[31m→ 142   prisma.product.findMany([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:52:44:5244 [31merror[39m: [31mError recording search query: [39m
+[31mInvalid `prisma.searchQuery.create()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\analyticsService.ts:97:32[39m
+
+[31m  94 }[39m
+[31m  95 [39m
+[31m  96 // Create record in database[39m
+[31m→ 97 await prisma.searchQuery.create([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:55:52:5552 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-05 06:55:52:5552 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-05 06:55:53:5553 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-05 06:55:53:5553 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-05 06:59:53:5953 [31merror[39m: [31mError recording search query: [39m
+[31mInvalid `prisma.searchQuery.create()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\analyticsService.ts:97:32[39m
+
+[31m  94 }[39m
+[31m  95 [39m
+[31m  96 // Create record in database[39m
+[31m→ 97 await prisma.searchQuery.create([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:59:53:5953 [31merror[39m: [31mSearch products error: [39m
+[31mInvalid `prisma.product.findMany()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\searchService.ts:142:24[39m
+
+[31m  139 [39m
+[31m  140 // Execute the search query[39m
+[31m  141 const [products, total] = await Promise.all([[39m
+[31m→ 142   prisma.product.findMany([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:59:53:5953 [31merror[39m: [31mProduct search error: [39m
+[31mInvalid `prisma.product.findMany()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\searchService.ts:142:24[39m
+
+[31m  139 [39m
+[31m  140 // Execute the search query[39m
+[31m  141 const [products, total] = await Promise.all([[39m
+[31m→ 142   prisma.product.findMany([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m

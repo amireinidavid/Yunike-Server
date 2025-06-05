@@ -10,6 +10,7 @@
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
     "prisma:studio": "prisma studio",
+    "prisma:seed": "ts-node prisma/seed.ts",
     "lint": "eslint . --ext .ts",
     "redis:check": "node scripts/checkRedis.js"
   },
@@ -43,7 +44,9 @@
     "zod": "^3.25.28"
   },
   "devDependencies": {
+    "@faker-js/faker": "^9.8.0",
     "@nx/eslint": "21.1.2",
+    "@nx/express": "^21.1.2",
     "@nx/jest": "21.1.2",
     "@types/compression": "^1.7.5",
     "@types/cookie-parser": "^1.4.6",
@@ -66,5 +69,8 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "nx": {}
+  "nx": {},
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  }
 }

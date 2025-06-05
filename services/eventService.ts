@@ -72,20 +72,20 @@ class EventService {
       logger.info(`Processing inventory update event for product ${data.productId}`);
       
       // Get product information
-            const product = await prisma.product.findUnique({
+      const product = await prisma.product.findUnique({
         where: { id: data.productId },
-              include: { vendor: true }
-            });
-            
-            if (!product) {
+        include: { vendor: true }
+      });
+      
+      if (!product) {
         logger.warn(`Product ${data.productId} not found for inventory event`);
-              return;
-            }
-            
+        return;
+      }
+      
       // Send real-time notification to vendor using Socket.IO
       realtimeService.notifyInventoryUpdate(data.vendorId, {
-                  id: product.id,
-                  name: product.name,
+        id: product.id,
+        name: product.name,
         inventory: data.quantity,
         previousInventory: data.previousQuantity,
         reason: data.reason || 'Inventory update',
@@ -98,28 +98,28 @@ class EventService {
       if (data.quantity <= threshold) {
         // Send real-time low stock notification
         realtimeService.notifyLowInventory(data.vendorId, {
-                  id: product.id,
-                  name: product.name,
+          id: product.id,
+          name: product.name,
           inventory: data.quantity,
           lowStockThreshold: threshold,
           timestamp: data.timestamp || new Date().toISOString()
         });
         
         // Also send email notification if vendor has email
-                if (product.vendor?.contactEmail) {
-                  await sendEmail({
-                    to: product.vendor.contactEmail,
-                    subject: `Low Inventory Alert: ${product.name}`,
-                    template: 'low-inventory-alert',
-                    context: {
-                      vendorName: product.vendor.storeName,
-                      productName: product.name,
-                      productId: product.id,
+        if (product.vendor?.contactEmail) {
+          await sendEmail({
+            to: product.vendor.contactEmail,
+            subject: `Low Inventory Alert: ${product.name}`,
+            template: 'low-inventory-alert',
+            context: {
+              vendorName: product.vendor.storeName,
+              productName: product.name,
+              productId: product.id,
               currentStock: data.quantity,
               threshold: threshold,
-                      dashboardUrl: `${process.env.VENDOR_FRONTEND_URL}/dashboard/products/${product.id}`
-                    }
-                  });
+              dashboardUrl: `${process.env.VENDOR_FRONTEND_URL}/dashboard/products/${product.id}`
+            }
+          });
         }
       }
       
@@ -163,7 +163,7 @@ class EventService {
         items: data.orderItems,
         totalAmount: data.totalAmount,
         status: data.status,
-              timestamp: data.timestamp || new Date().toISOString()
+        timestamp: data.timestamp || new Date().toISOString()
       });
       
     } catch (error) {
@@ -176,11 +176,11 @@ class EventService {
    */
   async close(): Promise<void> {
     // Nothing to close as we're using Socket.IO directly
-      this.isInitialized = false;
+    this.isInitialized = false;
     logger.info('Event service closed');
   }
 }
 
 // Export singleton instance
-export const kafkaService = new EventService();
-export default kafkaService; 
+export const eventService = new EventService();
+export default eventService; 

@@ -1895,3 +1895,146 @@ export const createVendorProfile = async (req: Request, res: Response) => {
     });
   }
 }; 
+
+/**
+ * Create or update customer profile with detailed information
+ */
+export const createCustomerProfile = async (req: Request, res: Response) => {
+  try {
+    if (!req.user) {
+      throw new UnauthorizedError('User not authenticated');
+    }
+    
+    const userId = req.user.id;
+    
+    // Check if user has CUSTOMER role
+    if (req.user.role !== 'CUSTOMER') {
+      throw new ForbiddenError('Only customers can update customer profiles');
+    }
+    
+    const { 
+      name, 
+      firstName, 
+      lastName, 
+      phone, 
+      gender,
+      dateOfBirth,
+      biography,
+      profileImageUrl,
+      timezone,
+      preferredLanguage,
+      preferredCurrency,
+      marketingConsent,
+      notificationPreferences,
+      communicationChannels
+    } = req.body;
+    
+    // Validate required fields
+    if (!firstName || !lastName) {
+      throw new BadRequestError('First name and last name are required');
+    }
+    
+    // Validate gender if provided
+    if (gender && !['MALE', 'FEMALE', 'OTHER', 'PREFER_NOT_TO_SAY'].includes(gender)) {
+      throw new BadRequestError('Invalid gender value');
+    }
+    
+    // Validate date of birth if provided
+    if (dateOfBirth) {
+      const birthDate = new Date(dateOfBirth);
+      const today = new Date();
+      const minAgeDate = new Date();
+      minAgeDate.setFullYear(today.getFullYear() - 13); // 13 years minimum age
+      
+      if (isNaN(birthDate.getTime())) {
+        throw new BadRequestError('Invalid date of birth');
+      }
+      
+      if (birthDate > today) {
+        throw new BadRequestError('Date of birth cannot be in the future');
+      }
+      
+      if (birthDate > minAgeDate) {
+        throw new BadRequestError('User must be at least 13 years old');
+      }
+    }
+    
+    // Validate notification preferences if provided
+    if (notificationPreferences && typeof notificationPreferences !== 'object') {
+      throw new BadRequestError('Notification preferences must be an object');
+    }
+    
+    // Validate communication channels if provided
+    if (communicationChannels && !Array.isArray(communicationChannels)) {
+      throw new BadRequestError('Communication channels must be an array');
+    }
+    
+    // Format the date of birth if provided
+    const formattedDateOfBirth = dateOfBirth ? new Date(dateOfBirth) : null;
+    
+    // Update user with all provided fields
+    await prisma.$executeRaw`
+      UPDATE "User"
+      SET
+        name = COALESCE(${name || `${firstName} ${lastName}`}, name),
+        "firstName" = ${firstName},
+        "lastName" = ${lastName},
+        phone = COALESCE(${phone}, phone),
+        gender = COALESCE(${gender}::"Gender", gender),
+        "dateOfBirth" = COALESCE(${formattedDateOfBirth}, "dateOfBirth"),
+        biography = COALESCE(${biography}, biography),
+        "profileImageUrl" = COALESCE(${profileImageUrl}, "profileImageUrl"),
+        timezone = COALESCE(${timezone}, timezone),
+        "preferredLanguage" = COALESCE(${preferredLanguage}, "preferredLanguage"),
+        "preferredCurrency" = COALESCE(${preferredCurrency}, "preferredCurrency"),
+        "marketingConsent" = COALESCE(${marketingConsent !== undefined ? marketingConsent : null}, "marketingConsent"),
+        "notificationPreferences" = COALESCE(${notificationPreferences ? JSON.stringify(notificationPreferences) : null}, "notificationPreferences"),
+        "communicationChannels" = COALESCE(${communicationChannels ? JSON.stringify(communicationChannels) : null}, "communicationChannels"),
+        "updatedAt" = ${new Date()}
+      WHERE id = ${userId}
+    `;
+
+    // Fetch updated user profile with raw query
+    const updatedUsers = await prisma.$queryRaw<{
+      id: string;
+      email: string;
+      name: string | null;
+      firstName: string | null;
+      lastName: string | null;
+      phone: string | null;
+      gender: string | null;
+      dateOfBirth: Date | null;
+      biography: string | null;
+      profileImageUrl: string | null;
+      timezone: string | null;
+      preferredLanguage: string | null;
+      preferredCurrency: string | null;
+      marketingConsent: boolean;
+      notificationPreferences: any;
+      communicationChannels: string[];
+    }[]>`
+      SELECT 
+        id, email, name, "firstName", "lastName", phone, gender, "dateOfBirth", 
+        biography, "profileImageUrl", timezone, "preferredLanguage", "preferredCurrency",
+        "marketingConsent", "notificationPreferences", "communicationChannels"
+      FROM "User"
+      WHERE id = ${userId}
+    `;
+
+    if (!updatedUsers || updatedUsers.length === 0) {
+      throw new NotFoundError('User not found');
+    }
+
+    res.status(200).json({ 
+      message: 'Customer profile updated successfully',
+      user: updatedUsers[0]
+    });
+  } catch (error: unknown) {
+    const statusCode = error instanceof ApiError ? error.statusCode : 500;
+    const message = error instanceof Error ? error.message : 'Something went wrong while updating customer profile';
+    
+    res.status(statusCode).json({ 
+      error: message
+    });
+  }
+}; 

@@ -22,7 +22,8 @@ import {
   registerVendor,
   getCsrfToken,
   adminLogin,
-  createVendorProfile
+  createVendorProfile,
+  createCustomerProfile
 } from '../controllers/authController';
 import { authenticate, ipRateLimit } from '../middleware/auth';
 
@@ -65,6 +66,7 @@ router.delete('/sessions', authenticate, revokeAllSessions);
 
 // Vendor registration
 router.post('/vendor/create-profile', authenticate, createVendorProfile);
+router.post('/customer/create-profile', authenticate, createCustomerProfile);
 
 // CSRF protection
 router.get('/csrf-token', getCsrfToken);

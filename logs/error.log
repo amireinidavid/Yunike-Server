@@ -648,3 +648,102 @@
 2025-05-31 17:00:53:053 [31merror[39m: [31mUnsupported file format for image 0:[39m
 2025-05-31 17:00:53:053 [31merror[39m: [31mError uploading product images: Unsupported file format[39m
 2025-05-31 17:00:53:053 [31merror[39m: [31mProduct update error: Unsupported file format[39m
+2025-06-05 06:47:45:4745 [31merror[39m: [31mSearch products error: [39m
+[31mInvalid `prisma.product.findMany()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\searchService.ts:142:24[39m
+
+[31m  139 [39m
+[31m  140 // Execute the search query[39m
+[31m  141 const [products, total] = await Promise.all([[39m
+[31m→ 142   prisma.product.findMany([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:47:45:4745 [31merror[39m: [31mProduct search error: [39m
+[31mInvalid `prisma.product.findMany()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\searchService.ts:142:24[39m
+
+[31m  139 [39m
+[31m  140 // Execute the search query[39m
+[31m  141 const [products, total] = await Promise.all([[39m
+[31m→ 142   prisma.product.findMany([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:47:46:4746 [31merror[39m: [31mError recording search query: [39m
+[31mInvalid `prisma.searchQuery.create()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\analyticsService.ts:97:32[39m
+
+[31m  94 }[39m
+[31m  95 [39m
+[31m  96 // Create record in database[39m
+[31m→ 97 await prisma.searchQuery.create([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:52:40:5240 [31merror[39m: [31mSearch products error: [39m
+[31mInvalid `prisma.product.findMany()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\searchService.ts:142:24[39m
+
+[31m  139 [39m
+[31m  140 // Execute the search query[39m
+[31m  141 const [products, total] = await Promise.all([[39m
+[31m→ 142   prisma.product.findMany([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:52:40:5240 [31merror[39m: [31mProduct search error: [39m
+[31mInvalid `prisma.product.findMany()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\searchService.ts:142:24[39m
+
+[31m  139 [39m
+[31m  140 // Execute the search query[39m
+[31m  141 const [products, total] = await Promise.all([[39m
+[31m→ 142   prisma.product.findMany([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:52:44:5244 [31merror[39m: [31mError recording search query: [39m
+[31mInvalid `prisma.searchQuery.create()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\analyticsService.ts:97:32[39m
+
+[31m  94 }[39m
+[31m  95 [39m
+[31m  96 // Create record in database[39m
+[31m→ 97 await prisma.searchQuery.create([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:59:53:5953 [31merror[39m: [31mError recording search query: [39m
+[31mInvalid `prisma.searchQuery.create()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\analyticsService.ts:97:32[39m
+
+[31m  94 }[39m
+[31m  95 [39m
+[31m  96 // Create record in database[39m
+[31m→ 97 await prisma.searchQuery.create([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:59:53:5953 [31merror[39m: [31mSearch products error: [39m
+[31mInvalid `prisma.product.findMany()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\searchService.ts:142:24[39m
+
+[31m  139 [39m
+[31m  140 // Execute the search query[39m
+[31m  141 const [products, total] = await Promise.all([[39m
+[31m→ 142   prisma.product.findMany([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 06:59:53:5953 [31merror[39m: [31mProduct search error: [39m
+[31mInvalid `prisma.product.findMany()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\services\searchService.ts:142:24[39m
+
+[31m  139 [39m
+[31m  140 // Execute the search query[39m
+[31m  141 const [products, total] = await Promise.all([[39m
+[31m→ 142   prisma.product.findMany([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
