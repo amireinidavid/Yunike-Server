@@ -1830,16 +1830,14 @@ export const createVendorProfile = async (req: Request, res: Response) => {
     if (process.env.STRIPE_CONNECT_ENABLED === 'true') {
       try {
         // Import here to avoid circular dependencies
-        const stripeService = await import('../services/stripeService.js');
+        const stripeService = await import('../services/emailService.js');
         
         const accountType = stripeAccountType || 'EXPRESS';
         
         // Force all accounts to be test accounts by setting a flag
         process.env.STRIPE_TEST_MODE = 'true';
         
-        stripeAccountData = await stripeService.createConnectAccount(vendor.id, accountType);
         
-        console.log(`Created Stripe Connect account for vendor ${vendor.id}: ${stripeAccountData.accountId}`);
       } catch (stripeError) {
         // Log error but don't fail the entire vendor creation
         console.error('Error creating Stripe Connect account:', stripeError);
@@ -1847,15 +1845,18 @@ export const createVendorProfile = async (req: Request, res: Response) => {
         // Even if there's an error, create a mock account ID for testing
         const mockAccountType = stripeAccountType || 'EXPRESS';
         stripeAccountData = {
-          accountId: `test_acct_${Date.now()}`,
-          accountLinkUrl: `${process.env.VENDOR_FRONTEND_URL}/vendor/stripe/callback?setup_mode=complete`
+          success: true,
+          data: {
+            accountId: `test_acct_${Date.now()}`,
+            accountLinkUrl: `${process.env.VENDOR_FRONTEND_URL}/vendor/stripe/callback?setup_mode=complete`
+          }
         };
         
         // Update vendor with mock Stripe account ID for testing
         await prisma.vendor.update({
           where: { id: vendor.id },
           data: {
-            stripeAccountId: stripeAccountData.accountId,
+            stripeAccountId: stripeAccountData.data.accountId,
             stripeAccountType: mockAccountType,
             stripeAccountStatus: 'PENDING',
             stripeOnboardingComplete: true // Auto-complete for test accounts

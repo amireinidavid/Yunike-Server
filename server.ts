@@ -12,15 +12,16 @@ import http from 'http';
 
 // Routes
 import authRoutes from './routes/authRoutes';
-import stripeRoutes from './routes/stripeRoutes';
 import accountRoutes from './routes/accountRoutes';
 import productRoutes from './routes/productRoutes';
 import customerAccountRoutes from './routes/customerAccountRoute';
+import stripeRoutes from './routes/stripeRoutes';
 
 // Services
 import { redisClient } from './services/redisService';
 import { realtimeService } from './services/realtimeService';
 import { kafkaService } from './services/kafkaService';
+import cartRoutes from './routes/cartRoutes';
 
 // Load environment variables
 dotenv.config();
@@ -211,10 +212,14 @@ app.get('/health', async (_req: Request, res: Response) => {
 
 // API routes
 app.use('/api/auth', authRoutes);
-app.use('/api/stripe', stripeRoutes);
 app.use('/api/account', accountRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/customer', customerAccountRoutes);
+app.use('/api/cart', cartRoutes);
+app.use('/api/stripe', stripeRoutes);
+
+// Special middleware for Stripe webhook
+app.use('/api/stripe/webhook', express.raw({ type: 'application/json' }));
 
 // Error handling middleware
 app.use((err: Error, req: Request, res: Response, _next: NextFunction) => {

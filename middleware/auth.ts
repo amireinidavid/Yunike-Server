@@ -339,4 +339,70 @@ export const ipRateLimit = (maxRequests: number, windowMs: number) => {
       next(error);
     }
   };
+};
+
+/**
+ * Middleware to optionally authenticate a user using JWT
+ * Will not block requests without authentication tokens
+ * @param req Express request
+ * @param res Express response
+ * @param next Express next function
+ */
+export const optionalAuth = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    // Get token from cookie, authorization header, or query parameter
+    let token = req.cookies?.accessToken;
+
+    // If no token in cookie, check authorization header
+    if (!token && req.headers.authorization) {
+      const authHeader = req.headers.authorization;
+      if (authHeader.startsWith('Bearer ')) {
+        token = authHeader.split(' ')[1];
+      }
+    }
+
+    // If still no token, check query parameter (for WebSocket connections)
+    if (!token && req.query.token) {
+      token = req.query.token as string;
+    }
+
+    // If no token is provided, continue without authentication
+    if (!token) {
+      return next();
+    }
+
+    // Verify token
+    const decoded = await verifyAccessToken(token);
+
+    // Set user in request object with the correct type
+    const user: AuthenticatedUser = {
+      id: decoded.userId,
+      email: decoded.email,
+      role: decoded.role,
+      permissions: [] // Initialize with empty array
+    };
+    
+    req.user = user;
+
+    // If user is admin, fetch permissions
+    if (decoded.role === UserRole.ADMIN) {
+      const admin = await prisma.admin.findUnique({
+        where: { userId: decoded.userId },
+        select: { permissions: true }
+      });
+
+      if (admin && req.user) {
+        req.user.permissions = admin.permissions;
+      }
+    }
+
+    next();
+  } catch (error) {
+    // Continue without authentication if token validation fails
+    next();
+  }
 }; 

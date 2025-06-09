@@ -1,0 +1,61 @@
+{"level":"info","message":"Socket.IO server initialized","service":"yunike-api","timestamp":"2025-06-08 13:09:56"}
+{"level":"info","message":"Cache service connected to Redis","service":"yunike-api","timestamp":"2025-06-08 13:09:57"}
+{"level":"info","message":"Subscribed to app:events channel","service":"yunike-api","timestamp":"2025-06-08 13:09:57"}
+{"level":"info","message":"Event service initialized","service":"yunike-api","timestamp":"2025-06-08 13:09:57"}
+{"level":"debug","message":"Cache set: vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest (TTL: 300s)","service":"yunike-api","timestamp":"2025-06-08 21:04:38"}
+{"level":"debug","message":"Cache hit: vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest","service":"yunike-api","timestamp":"2025-06-08 21:04:38"}
+{"level":"debug","message":"Cache hit for vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest","service":"yunike-api","timestamp":"2025-06-08 21:04:38"}
+{"level":"debug","message":"Cache hit: vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest","service":"yunike-api","timestamp":"2025-06-08 21:04:38"}
+{"level":"debug","message":"Cache hit for vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest","service":"yunike-api","timestamp":"2025-06-08 21:04:38"}
+{"level":"debug","message":"Recorded search query: ","service":"yunike-api","timestamp":"2025-06-08 21:05:49"}
+{"level":"debug","message":"Cache set: products:/api/products?page=1&limit=20&sortBy=newest (TTL: 300s)","service":"yunike-api","timestamp":"2025-06-08 21:05:50"}
+{"level":"debug","message":"Cache hit: products:/api/products?page=1&limit=20&sortBy=newest","service":"yunike-api","timestamp":"2025-06-08 21:05:50"}
+{"level":"debug","message":"Cache hit for products:/api/products?page=1&limit=20&sortBy=newest","service":"yunike-api","timestamp":"2025-06-08 21:05:50"}
+{"level":"info","message":"Socket.IO server initialized","service":"yunike-api","timestamp":"2025-06-08 21:19:58"}
+{"level":"info","message":"Cache service connected to Redis","service":"yunike-api","timestamp":"2025-06-08 21:19:59"}
+{"level":"info","message":"Subscribed to app:events channel","service":"yunike-api","timestamp":"2025-06-08 21:19:59"}
+{"level":"info","message":"Event service initialized","service":"yunike-api","timestamp":"2025-06-08 21:20:00"}
+{"detail":{"code":"ETIMEDOUT"},"level":"error","message":"Error retrieving Stripe account status: Request aborted due to timeout being reached (80000ms)","raw":{"detail":{"code":"ETIMEDOUT"},"message":"Request aborted due to timeout being reached (80000ms)"},"service":"yunike-api","stack":"Error: Request aborted due to timeout being reached (80000ms)\n    at C:\\Users\\david ini\\Desktop\\Yunike\\server\\node_modules\\stripe\\cjs\\RequestSender.js:398:41\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-08 21:24:48","type":"StripeConnectionError"}
+{"detail":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.stripe.com","syscall":"getaddrinfo"},"level":"error","message":"Error retrieving Stripe account status: An error occurred with our connection to Stripe. Request was retried 2 times.","raw":{"detail":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.stripe.com","syscall":"getaddrinfo"},"message":"An error occurred with our connection to Stripe. Request was retried 2 times."},"service":"yunike-api","stack":"Error: An error occurred with our connection to Stripe. Request was retried 2 times.\n    at C:\\Users\\david ini\\Desktop\\Yunike\\server\\node_modules\\stripe\\cjs\\RequestSender.js:398:41\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-08 21:30:07","type":"StripeConnectionError"}
+{"level":"info","message":"Socket.IO server initialized","service":"yunike-api","timestamp":"2025-06-08 21:43:33"}
+{"level":"info","message":"Cache service connected to Redis","service":"yunike-api","timestamp":"2025-06-08 21:43:33"}
+{"level":"info","message":"Subscribed to app:events channel","service":"yunike-api","timestamp":"2025-06-08 21:43:34"}
+{"level":"info","message":"Event service initialized","service":"yunike-api","timestamp":"2025-06-08 21:43:34"}
+{"level":"info","message":"Socket.IO server initialized","service":"yunike-api","timestamp":"2025-06-08 21:46:59"}
+{"level":"info","message":"Cache service connected to Redis","service":"yunike-api","timestamp":"2025-06-08 21:46:59"}
+{"level":"info","message":"Subscribed to app:events channel","service":"yunike-api","timestamp":"2025-06-08 21:46:59"}
+{"level":"info","message":"Event service initialized","service":"yunike-api","timestamp":"2025-06-08 21:47:00"}
+{"detail":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.stripe.com","syscall":"getaddrinfo"},"level":"error","message":"Error retrieving Stripe account status: An error occurred with our connection to Stripe. Request was retried 2 times.","raw":{"detail":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.stripe.com","syscall":"getaddrinfo"},"message":"An error occurred with our connection to Stripe. Request was retried 2 times."},"service":"yunike-api","stack":"Error: An error occurred with our connection to Stripe. Request was retried 2 times.\n    at C:\\Users\\david ini\\Desktop\\Yunike\\server\\node_modules\\stripe\\cjs\\RequestSender.js:398:41\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-08 22:06:59","type":"StripeConnectionError"}
+{"level":"info","message":"Socket.IO server initialized","service":"yunike-api","timestamp":"2025-06-08 22:10:06"}
+{"level":"info","message":"Cache service connected to Redis","service":"yunike-api","timestamp":"2025-06-08 22:10:06"}
+{"level":"info","message":"Subscribed to app:events channel","service":"yunike-api","timestamp":"2025-06-08 22:10:06"}
+{"level":"info","message":"Event service initialized","service":"yunike-api","timestamp":"2025-06-08 22:10:06"}
+{"detail":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.stripe.com","syscall":"getaddrinfo"},"level":"error","message":"Error retrieving Stripe account status: An error occurred with our connection to Stripe. Request was retried 2 times.","raw":{"detail":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.stripe.com","syscall":"getaddrinfo"},"message":"An error occurred with our connection to Stripe. Request was retried 2 times."},"service":"yunike-api","stack":"Error: An error occurred with our connection to Stripe. Request was retried 2 times.\n    at C:\\Users\\david ini\\Desktop\\Yunike\\server\\node_modules\\stripe\\cjs\\RequestSender.js:398:41\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-08 22:15:16","type":"StripeConnectionError"}
+{"level":"info","message":"Socket.IO server initialized","service":"yunike-api","timestamp":"2025-06-08 22:27:27"}
+{"level":"info","message":"Cache service connected to Redis","service":"yunike-api","timestamp":"2025-06-08 22:27:30"}
+{"level":"info","message":"Subscribed to app:events channel","service":"yunike-api","timestamp":"2025-06-08 22:27:30"}
+{"level":"info","message":"Event service initialized","service":"yunike-api","timestamp":"2025-06-08 22:27:30"}
+{"isTestMode":false,"level":"info","message":"Stripe Connect account created for vendor: cmb3bgnj30002xzioltyl40ts","service":"yunike-api","stripeAccountId":"acct_1RXqklBAHT7mFflT","timestamp":"2025-06-08 22:27:47","vendorId":"cmb3bgnj30002xzioltyl40ts"}
+{"level":"info","message":"Socket.IO server initialized","service":"yunike-api","timestamp":"2025-06-09 07:56:07"}
+{"level":"info","message":"Cache service connected to Redis","service":"yunike-api","timestamp":"2025-06-09 07:56:09"}
+{"level":"info","message":"Subscribed to app:events channel","service":"yunike-api","timestamp":"2025-06-09 07:56:09"}
+{"level":"info","message":"Event service initialized","service":"yunike-api","timestamp":"2025-06-09 07:56:10"}
+{"isTestMode":true,"level":"info","message":"Stripe Connect account created for vendor: cmb3bgnj30002xzioltyl40ts","service":"yunike-api","stripeAccountId":"acct_1RXzfZPnQgjl4xtY","timestamp":"2025-06-09 07:59:01","vendorId":"cmb3bgnj30002xzioltyl40ts"}
+{"level":"debug","message":"Cache set: vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest (TTL: 300s)","service":"yunike-api","timestamp":"2025-06-09 08:21:06"}
+{"level":"debug","message":"Cache hit: vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest","service":"yunike-api","timestamp":"2025-06-09 08:21:06"}
+{"level":"debug","message":"Cache hit for vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest","service":"yunike-api","timestamp":"2025-06-09 08:21:06"}
+{"level":"debug","message":"Cache hit: vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest","service":"yunike-api","timestamp":"2025-06-09 08:21:06"}
+{"level":"debug","message":"Cache hit for vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest","service":"yunike-api","timestamp":"2025-06-09 08:21:06"}
+{"level":"debug","message":"Recorded search query: ","service":"yunike-api","timestamp":"2025-06-09 08:25:53"}
+{"level":"debug","message":"Cache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)","service":"yunike-api","timestamp":"2025-06-09 08:25:53"}
+{"level":"debug","message":"Cache hit: products:/api/products?sort=newest&page=1&limit=12","service":"yunike-api","timestamp":"2025-06-09 08:25:54"}
+{"level":"debug","message":"Cache hit for products:/api/products?sort=newest&page=1&limit=12","service":"yunike-api","timestamp":"2025-06-09 08:25:54"}
+{"level":"debug","message":"Recorded search query: nivea","service":"yunike-api","timestamp":"2025-06-09 08:26:10"}
+{"level":"debug","message":"Cache set: products:/api/products?query=nivea&minPrice=27.7269083863686&sort=newest&page=1&limit=12 (TTL: 300s)","service":"yunike-api","timestamp":"2025-06-09 08:26:11"}
+{"level":"debug","message":"Recorded product view: cmbcb20ul0000jemhgf76ktw3","service":"yunike-api","timestamp":"2025-06-09 08:26:49"}
+{"level":"debug","message":"Cache set: product:/api/products/cmbcb20ul0000jemhgf76ktw3 (TTL: 300s)","service":"yunike-api","timestamp":"2025-06-09 08:26:49"}
+{"level":"debug","message":"Cache hit: product:/api/products/cmbcb20ul0000jemhgf76ktw3","service":"yunike-api","timestamp":"2025-06-09 08:26:49"}
+{"level":"debug","message":"Cache hit for product:/api/products/cmbcb20ul0000jemhgf76ktw3","service":"yunike-api","timestamp":"2025-06-09 08:26:49"}
+{"level":"debug","message":"Cache set: related-products:/api/products/cmbcb20ul0000jemhgf76ktw3/related?limit=8 (TTL: 1800s)","service":"yunike-api","timestamp":"2025-06-09 08:26:49"}
+{"level":"debug","message":"Cache hit: related-products:/api/products/cmbcb20ul0000jemhgf76ktw3/related?limit=8","service":"yunike-api","timestamp":"2025-06-09 08:26:49"}
+{"level":"debug","message":"Cache hit for related-products:/api/products/cmbcb20ul0000jemhgf76ktw3/related?limit=8","service":"yunike-api","timestamp":"2025-06-09 08:26:49"}

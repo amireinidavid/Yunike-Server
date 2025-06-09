@@ -1,681 +1,451 @@
 import Stripe from 'stripe';
-import { PrismaClient, StripeAccountStatus, StripeAccountType, Vendor } from '@prisma/client';
+import { prisma } from '../utils/prisma';
+import { logger } from '../utils/logger';
 
-const prisma = new PrismaClient();
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-    apiVersion: '2025-04-30.basil', // Use the latest API version, // Cast to any to avoid API version type error
+// Initialize Stripe with the API key from environment variables
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || '', {
+  apiVersion: '2025-04-30.basil', // Use the latest stable API version
 });
 
-/**
- * Map full country names to ISO 2-letter country codes
- * This helps convert country names from the form to the format Stripe requires
- */
-const countryNameToCode: Record<string, string> = {
-  'afghanistan': 'AF',
-  'albania': 'AL',
-  'algeria': 'DZ',
-  'andorra': 'AD',
-  'angola': 'AO',
-  'argentina': 'AR',
-  'armenia': 'AM',
-  'australia': 'AU',
-  'austria': 'AT',
-  'azerbaijan': 'AZ',
-  'bahamas': 'BS',
-  'bahrain': 'BH',
-  'bangladesh': 'BD',
-  'barbados': 'BB',
-  'belarus': 'BY',
-  'belgium': 'BE',
-  'belize': 'BZ',
-  'benin': 'BJ',
-  'bhutan': 'BT',
-  'bolivia': 'BO',
-  'bosnia and herzegovina': 'BA',
-  'botswana': 'BW',
-  'brazil': 'BR',
-  'brunei': 'BN',
-  'bulgaria': 'BG',
-  'burkina faso': 'BF',
-  'burundi': 'BI',
-  'cambodia': 'KH',
-  'cameroon': 'CM',
-  'canada': 'CA',
-  'cape verde': 'CV',
-  'central african republic': 'CF',
-  'chad': 'TD',
-  'chile': 'CL',
-  'china': 'CN',
-  'colombia': 'CO',
-  'comoros': 'KM',
-  'congo': 'CG',
-  'costa rica': 'CR',
-  'croatia': 'HR',
-  'cuba': 'CU',
-  'cyprus': 'CY',
-  'czech republic': 'CZ',
-  'denmark': 'DK',
-  'djibouti': 'DJ',
-  'dominica': 'DM',
-  'dominican republic': 'DO',
-  'east timor': 'TL',
-  'ecuador': 'EC',
-  'egypt': 'EG',
-  'el salvador': 'SV',
-  'equatorial guinea': 'GQ',
-  'eritrea': 'ER',
-  'estonia': 'EE',
-  'ethiopia': 'ET',
-  'fiji': 'FJ',
-  'finland': 'FI',
-  'france': 'FR',
-  'gabon': 'GA',
-  'gambia': 'GM',
-  'georgia': 'GE',
-  'germany': 'DE',
-  'ghana': 'GH',
-  'greece': 'GR',
-  'grenada': 'GD',
-  'guatemala': 'GT',
-  'guinea': 'GN',
-  'guinea-bissau': 'GW',
-  'guyana': 'GY',
-  'haiti': 'HT',
-  'honduras': 'HN',
-  'hungary': 'HU',
-  'iceland': 'IS',
-  'india': 'IN',
-  'indonesia': 'ID',
-  'iran': 'IR',
-  'iraq': 'IQ',
-  'ireland': 'IE',
-  'israel': 'IL',
-  'italy': 'IT',
-  'ivory coast': 'CI',
-  'jamaica': 'JM',
-  'japan': 'JP',
-  'jordan': 'JO',
-  'kazakhstan': 'KZ',
-  'kenya': 'KE',
-  'kiribati': 'KI',
-  'north korea': 'KP',
-  'south korea': 'KR',
-  'kosovo': 'XK',
-  'kuwait': 'KW',
-  'kyrgyzstan': 'KG',
-  'laos': 'LA',
-  'latvia': 'LV',
-  'lebanon': 'LB',
-  'lesotho': 'LS',
-  'liberia': 'LR',
-  'libya': 'LY',
-  'liechtenstein': 'LI',
-  'lithuania': 'LT',
-  'luxembourg': 'LU',
-  'macedonia': 'MK',
-  'madagascar': 'MG',
-  'malawi': 'MW',
-  'malaysia': 'MY',
-  'maldives': 'MV',
-  'mali': 'ML',
-  'malta': 'MT',
-  'marshall islands': 'MH',
-  'mauritania': 'MR',
-  'mauritius': 'MU',
-  'mexico': 'MX',
-  'micronesia': 'FM',
-  'moldova': 'MD',
-  'monaco': 'MC',
-  'mongolia': 'MN',
-  'montenegro': 'ME',
-  'morocco': 'MA',
-  'mozambique': 'MZ',
-  'myanmar': 'MM',
-  'namibia': 'NA',
-  'nauru': 'NR',
-  'nepal': 'NP',
-  'netherlands': 'NL',
-  'new zealand': 'NZ',
-  'nicaragua': 'NI',
-  'niger': 'NE',
-  'nigeria': 'NG',
-  'norway': 'NO',
-  'oman': 'OM',
-  'pakistan': 'PK',
-  'palau': 'PW',
-  'panama': 'PA',
-  'papua new guinea': 'PG',
-  'paraguay': 'PY',
-  'peru': 'PE',
-  'philippines': 'PH',
-  'poland': 'PL',
-  'portugal': 'PT',
-  'qatar': 'QA',
-  'romania': 'RO',
-  'russia': 'RU',
-  'rwanda': 'RW',
-  'saint kitts and nevis': 'KN',
-  'saint lucia': 'LC',
-  'saint vincent and the grenadines': 'VC',
-  'samoa': 'WS',
-  'san marino': 'SM',
-  'sao tome and principe': 'ST',
-  'saudi arabia': 'SA',
-  'senegal': 'SN',
-  'serbia': 'RS',
-  'seychelles': 'SC',
-  'sierra leone': 'SL',
-  'singapore': 'SG',
-  'slovakia': 'SK',
-  'slovenia': 'SI',
-  'solomon islands': 'SB',
-  'somalia': 'SO',
-  'south africa': 'ZA',
-  'south sudan': 'SS',
-  'spain': 'ES',
-  'sri lanka': 'LK',
-  'sudan': 'SD',
-  'suriname': 'SR',
-  'swaziland': 'SZ',
-  'sweden': 'SE',
-  'switzerland': 'CH',
-  'syria': 'SY',
-  'taiwan': 'TW',
-  'tajikistan': 'TJ',
-  'tanzania': 'TZ',
-  'thailand': 'TH',
-  'togo': 'TG',
-  'tonga': 'TO',
-  'trinidad and tobago': 'TT',
-  'tunisia': 'TN',
-  'turkey': 'TR',
-  'turkmenistan': 'TM',
-  'tuvalu': 'TV',
-  'uganda': 'UG',
-  'ukraine': 'UA',
-  'united arab emirates': 'AE',
-  'united kingdom': 'GB',
-  'united states': 'US',
-  'usa': 'US',
-  'united states of america': 'US',
-  'uruguay': 'UY',
-  'uzbekistan': 'UZ',
-  'vanuatu': 'VU',
-  'vatican city': 'VA',
-  'venezuela': 'VE',
-  'vietnam': 'VN',
-  'yemen': 'YE',
-  'zambia': 'ZM',
-  'zimbabwe': 'ZW'
-};
-
-/**
- * Convert a country name to its ISO 2-letter code
- * @param country Country name or code
- * @returns ISO 2-letter country code
- */
-const getCountryCode = (country: string | null | undefined): string => {
-  if (!country) return 'US'; // Default to US for test accounts
-  
-  // If it's already a 2-letter code, return it
-  if (/^[A-Z]{2}$/.test(country)) {
-    return country;
-  }
-  
-  // Normalize the country name (lowercase, trim)
-  const normalizedCountry = country.toLowerCase().trim();
-  
-  // Check if the normalized country is in our mapping
-  if (countryNameToCode[normalizedCountry]) {
-    return countryNameToCode[normalizedCountry];
-  }
-  
-  // For any country not in our mapping, default to US for test accounts
-  console.warn(`Country "${country}" not found in mapping, defaulting to US`);
-  return 'US';
-};
+// Check if we're in test mode
+const isTestMode = process.env.STRIPE_TEST_MODE === 'true';
 
 /**
  * Create a Stripe Connect account for a vendor
  */
-export const createConnectAccount = async (
-  vendorId: string,
-  accountType: StripeAccountType = StripeAccountType.EXPRESS
-): Promise<{ accountId: string; accountLinkUrl?: string }> => {
+export async function createConnectAccount(vendorId: string, accountType: string = 'EXPRESS') {
   try {
-    // Get vendor info
+    // Get vendor from database
     const vendor = await prisma.vendor.findUnique({
       where: { id: vendorId },
-      include: { user: true }
+      include: {
+        user: {
+          select: {
+            id: true,
+            email: true,
+            firstName: true,
+            lastName: true,
+            phone: true,
+          }
+        }
+      }
     });
 
     if (!vendor) {
-      throw new Error('Vendor not found');
+      return { error: 'Vendor not found' };
     }
 
-    // If vendor already has a Stripe account
+    // Check if vendor already has a Stripe account
     if (vendor.stripeAccountId) {
-      return { accountId: vendor.stripeAccountId };
+      return {
+        error: 'Vendor already has a Stripe Connect account',
+        data: { accountId: vendor.stripeAccountId }
+      };
     }
 
-    // Get country code from business address
-    let countryCode = 'US'; // Default for test accounts
-    
-    // Check if we're in test mode (force US for test accounts)
-    const isTestMode = process.env.STRIPE_TEST_MODE === 'true';
-    
-    if (!isTestMode && vendor.businessAddress) {
-      try {
-        // Handle different possible structures of businessAddress
-        if (typeof vendor.businessAddress === 'object') {
-          const address = vendor.businessAddress as any;
-          if (address.country) {
-            countryCode = getCountryCode(address.country);
-          }
-        } else if (typeof vendor.businessAddress === 'string') {
-          // Try to parse if it's a JSON string
-          try {
-            const address = JSON.parse(vendor.businessAddress);
-            if (address.country) {
-              countryCode = getCountryCode(address.country);
-            }
-          } catch (e) {
-            // If not valid JSON, use default
-            console.warn('Could not parse business address:', e);
-          }
-        }
-      } catch (error) {
-        console.warn('Error processing business address:', error);
-        // Continue with default countryCode
-      }
-    } else {
-      // Force US for test accounts
-      countryCode = 'US';
-      console.log('Using test account with US country code');
-    }
-
-    console.log(`Creating Stripe account for vendor ${vendorId} with country code: ${countryCode}`);
-
-    // Create a Stripe Connect account based on the account type
-    let account;
-    
-    if (accountType === StripeAccountType.EXPRESS) {
-      // Create an Express account (easiest onboarding)
-      account = await stripe.accounts.create({
-        type: 'express',
-        country: countryCode,
-        email: vendor.contactEmail,
-        capabilities: {
-          card_payments: { requested: true },
-          transfers: { requested: true },
+    // Create the Connect account
+    const account = await stripe.accounts.create({
+      type: accountType.toLowerCase() as Stripe.AccountCreateParams.Type,
+      email: vendor.user.email,
+      metadata: {
+        vendorId: vendor.id,
+        userId: vendor.user.id,
+      },
+      business_profile: {
+        name: vendor.storeName,
+        url: vendor.slug || undefined,
+      },
+      capabilities: {
+        card_payments: { requested: true },
+        transfers: { requested: true },
+      },
+      settings: {
+        payouts: {
+          schedule: {
+            interval: 'manual',
+          },
         },
-        business_type: mapBusinessType(vendor.businessType) as any, // Cast to any to avoid type error
-        business_profile: {
-          name: vendor.storeName,
-          url: `${process.env.FRONTEND_URL}/vendor/${vendor.slug}`,
-        },
-        metadata: {
-          vendorId: vendor.id,
-          platformId: process.env.PLATFORM_ID || 'yunike',
-          isTestAccount: 'true'
-        }
-      });
-    } else if (accountType === StripeAccountType.STANDARD) {
-      // Create a Standard account
-      account = await stripe.accounts.create({
-        type: 'standard',
-        country: countryCode,
-        email: vendor.contactEmail,
-        metadata: {
-          vendorId: vendor.id,
-          platformId: process.env.PLATFORM_ID || 'yunike',
-          isTestAccount: 'true'
-        }
-      });
-    } else {
-      // Create a Custom account (most flexibility but requires more compliance work)
-      account = await stripe.accounts.create({
-        type: 'custom',
-        country: countryCode,
-        email: vendor.contactEmail,
-        capabilities: {
-          card_payments: { requested: true },
-          transfers: { requested: true },
-        },
-        business_type: mapBusinessType(vendor.businessType) as any, // Cast to any to avoid type error
-        business_profile: {
-          name: vendor.storeName,
-          url: `${process.env.FRONTEND_URL}/vendor/${vendor.slug}`,
-        },
-        metadata: {
-          vendorId: vendor.id,
-          platformId: process.env.PLATFORM_ID || 'yunike',
-          isTestAccount: 'true'
-        }
-      });
-    }
+      },
+      ...(vendor.user.phone && { 
+        business_profile: { 
+          support_phone: vendor.user.phone 
+        } 
+      }),
+    });
 
     // Update vendor with Stripe account ID
     await prisma.vendor.update({
       where: { id: vendorId },
       data: {
         stripeAccountId: account.id,
-        stripeAccountType: accountType,
-        stripeAccountStatus: StripeAccountStatus.PENDING
+        stripeAccountType: accountType as any,
+        stripeAccountStatus: 'PENDING',
       }
     });
 
-    // For Express accounts, create an account link for onboarding
-    let accountLinkUrl;
-    if (accountType === StripeAccountType.EXPRESS) {
-      const accountLink = await stripe.accountLinks.create({
-        account: account.id,
-        refresh_url: `${process.env.VENDOR_FRONTEND_URL}/vendor/stripe/callback?setup_mode=canceled`,
-        return_url: `${process.env.VENDOR_FRONTEND_URL}/vendor/stripe/callback?setup_mode=complete`,
-        type: 'account_onboarding',
-      });
-      accountLinkUrl = accountLink.url;
-    }
+    // Create account link for onboarding
+    const accountLink = await stripe.accountLinks.create({
+      account: account.id,
+      refresh_url: `${process.env.VENDOR_FRONTEND_URL}/dashboard/payments/refresh`,
+      return_url: `${process.env.VENDOR_FRONTEND_URL}/dashboard/payments/complete`,
+      type: 'account_onboarding',
+      collect: 'eventually_due',
+    });
 
-    return { 
-      accountId: account.id,
-      accountLinkUrl
+    // Log the successful creation
+    logger.info(`Stripe Connect account created for vendor: ${vendorId}`, { 
+      vendorId,
+      stripeAccountId: account.id,
+      isTestMode
+    });
+
+    return {
+      error: null,
+      data: {
+        accountId: account.id,
+        accountLinkUrl: accountLink.url,
+        isTestMode,
+      }
     };
-  } catch (error) {
-    console.error('Error creating Stripe Connect account:', error);
-    throw error;
+  } catch (error: any) {
+    logger.error('Error creating Stripe Connect account:', error);
+    return { error: error.message || 'Failed to create Stripe Connect account' };
   }
-};
+}
 
 /**
- * Create an account link for an existing Stripe Connect account
+ * Generate an account link for completing the Stripe onboarding process
  */
-export const createAccountLink = async (vendorId: string): Promise<string> => {
+export async function generateAccountLink(vendorId: string) {
   try {
     const vendor = await prisma.vendor.findUnique({
       where: { id: vendorId }
     });
 
-    if (!vendor || !vendor.stripeAccountId) {
-      throw new Error('Vendor has no Stripe account');
+    if (!vendor) {
+      return { error: 'Vendor not found' };
     }
 
+    if (!vendor.stripeAccountId) {
+      return { error: 'Vendor has no Stripe Connect account' };
+    }
+
+    // Create account link for onboarding
     const accountLink = await stripe.accountLinks.create({
       account: vendor.stripeAccountId,
-      refresh_url: `${process.env.VENDOR_FRONTEND_URL}/vendor/stripe/callback?setup_mode=canceled`,
-      return_url: `${process.env.VENDOR_FRONTEND_URL}/vendor/stripe/callback?setup_mode=complete`,
+      refresh_url: `${process.env.VENDOR_FRONTEND_URL}/dashboard/settings/payments/refresh`,
+      return_url: `${process.env.VENDOR_FRONTEND_URL}/dashboard/settings/payments/complete`,
       type: 'account_onboarding',
+      collect: 'eventually_due',
     });
 
-    return accountLink.url;
-  } catch (error) {
-    console.error('Error creating account link:', error);
-    throw error;
+    return {
+      error: null,
+      data: {
+        accountLinkUrl: accountLink.url,
+        isTestMode,
+      }
+    };
+  } catch (error: any) {
+    logger.error('Error generating account link:', error);
+    return { error: error.message || 'Failed to generate account link' };
   }
-};
+}
 
 /**
- * Get Stripe account status
+ * Get a vendor's Stripe account status
  */
-export const getAccountStatus = async (vendorId: string): Promise<{
-  stripeAccountId: string | null;
-  status: StripeAccountStatus | null;
-  detailsSubmitted: boolean;
-  payoutsEnabled: boolean;
-  chargesEnabled: boolean;
-}> => {
+export async function getAccountStatus(vendorId: string) {
   try {
     const vendor = await prisma.vendor.findUnique({
       where: { id: vendorId }
     });
 
-    if (!vendor || !vendor.stripeAccountId) {
-      return {
-        stripeAccountId: null,
-        status: null,
-        detailsSubmitted: false,
-        payoutsEnabled: false,
-        chargesEnabled: false
-      };
+    if (!vendor) {
+      return { error: 'Vendor not found' };
     }
 
+    if (!vendor.stripeAccountId) {
+      return { error: 'Vendor has no Stripe Connect account' };
+    }
+
+    // Get the account from Stripe
     const account = await stripe.accounts.retrieve(vendor.stripeAccountId);
 
-    // Update account status in database
+    // Update vendor with the latest status
     await prisma.vendor.update({
       where: { id: vendorId },
       data: {
         stripeDetailsSubmitted: account.details_submitted,
-        stripePayoutsEnabled: account.payouts_enabled,
         stripeChargesEnabled: account.charges_enabled,
-        stripeOnboardingComplete: 
-          account.details_submitted && 
-          account.payouts_enabled && 
-          account.charges_enabled,
-        stripeAccountStatus: mapStripeStatus(account)
+        stripePayoutsEnabled: account.payouts_enabled,
+        stripeAccountStatus: account.charges_enabled ? 'ACTIVE' : 'PENDING',
+        stripeOnboardingComplete: account.details_submitted,
+      }
+    });
+
+    // Check if this is a test account by looking at the Stripe account metadata or test clock
+    const accountIsTestMode = account.metadata?.test_mode === 'true' || process.env.STRIPE_TEST_MODE === 'true';
+    
+    return {
+      error: null,
+      data: {
+        stripeAccountId: vendor.stripeAccountId,
+        status: account.charges_enabled ? 'ACTIVE' : 'PENDING',
+        detailsSubmitted: account.details_submitted,
+        payoutsEnabled: account.payouts_enabled,
+        chargesEnabled: account.charges_enabled,
+        isTestMode: accountIsTestMode,
+      }
+    };
+  } catch (error: any) {
+    logger.error('Error retrieving Stripe account status:', error);
+    return { error: error.message || 'Failed to get account status' };
+  }
+}
+
+/**
+ * Update vendor's payout schedule
+ */
+export async function updatePayoutSchedule(vendorId: string, schedule: string, minimumAmount?: number) {
+  try {
+    const vendor = await prisma.vendor.findUnique({
+      where: { id: vendorId }
+    });
+
+    if (!vendor) {
+      return { error: 'Vendor not found' };
+    }
+
+    if (!vendor.stripeAccountId) {
+      return { error: 'Vendor has no Stripe Connect account' };
+    }
+
+    // Valid schedule intervals
+    const validSchedules = ['daily', 'weekly', 'monthly', 'manual'];
+    if (!validSchedules.includes(schedule)) {
+      return { error: 'Invalid schedule. Must be one of: daily, weekly, monthly, manual' };
+    }
+
+    // Update the payout schedule in Stripe
+    await stripe.accounts.update(vendor.stripeAccountId, {
+      settings: {
+        payouts: {
+          schedule: {
+            interval: schedule as Stripe.AccountUpdateParams.Settings.Payouts.Schedule.Interval,
+            ...(schedule !== 'manual' && minimumAmount && { delay_days: 2 }),
+          },
+          ...(minimumAmount && { minimum_amount: Math.floor(minimumAmount * 100) }), // Convert to cents
+        },
+      },
+    });
+
+    // Update vendor record with payout preferences
+    await prisma.vendor.update({
+      where: { id: vendorId },
+      data: {
+        payoutSchedule: schedule.toUpperCase(),
+        ...(minimumAmount && { minimumPayoutAmount: minimumAmount }),
       }
     });
 
     return {
-      stripeAccountId: vendor.stripeAccountId,
-      status: mapStripeStatus(account),
-      detailsSubmitted: account.details_submitted,
-      payoutsEnabled: account.payouts_enabled,
-      chargesEnabled: account.charges_enabled
+      error: null,
+      data: {
+        schedule,
+        minimumAmount,
+      }
     };
-  } catch (error) {
-    console.error('Error getting account status:', error);
-    throw error;
+  } catch (error: any) {
+    logger.error('Error updating payout schedule:', error);
+    return { error: error.message || 'Failed to update payout schedule' };
   }
-};
+}
 
 /**
- * Create a payment intent with connected account
+ * Process Stripe webhook events
  */
-export const createPaymentIntent = async (
-  amount: number, 
-  currency: string, 
+export async function processWebhookEvent(eventType: string, data: any) {
+  try {
+    switch (eventType) {
+      case 'account.updated': {
+        const account = data as Stripe.Account;
+        
+        // Find the vendor by Stripe account ID
+        const vendor = await prisma.vendor.findFirst({
+          where: { stripeAccountId: account.id }
+        });
+
+        if (!vendor) {
+          logger.warn(`No vendor found for Stripe account: ${account.id}`);
+          return { error: 'No vendor found for Stripe account' };
+        }
+
+        // Check if onboarding was just completed
+        const onboardingJustCompleted = account.details_submitted && !vendor.stripeDetailsSubmitted;
+        
+        // Update vendor status
+        await prisma.vendor.update({
+          where: { id: vendor.id },
+          data: {
+            stripeDetailsSubmitted: account.details_submitted,
+            stripeChargesEnabled: account.charges_enabled,
+            stripePayoutsEnabled: account.payouts_enabled,
+            stripeAccountStatus: account.charges_enabled ? 'ACTIVE' : (account.details_submitted ? 'PENDING' : 'PENDING'),
+            stripeOnboardingComplete: account.details_submitted,
+            stripeMetadata: account.metadata as any,
+            // Set default payout schedule if onboarding was just completed
+            ...(onboardingJustCompleted && { payoutSchedule: 'DAILY' })
+          }
+        });
+        
+        // If onboarding was just completed, set up default payout schedule in Stripe
+        if (onboardingJustCompleted && vendor.stripeAccountId) {
+          try {
+            await stripe.accounts.update(vendor.stripeAccountId, {
+              settings: {
+                payouts: {
+                  schedule: {
+                    interval: 'daily',
+                  },
+                },
+              },
+            });
+            logger.info(`Set default daily payout schedule for vendor ${vendor.id}`);
+          } catch (payoutError) {
+            logger.error(`Failed to set default payout schedule: ${payoutError}`);
+          }
+        }
+
+        logger.info(`Updated vendor ${vendor.id} Stripe Connect status`);
+        return { error: null, data: { success: true } };
+      }
+      
+      // Handle other events as needed
+      default:
+        logger.info(`Unhandled Stripe event type: ${eventType}`);
+        return { error: null, data: { handled: false, eventType } };
+    }
+  } catch (error: any) {
+    logger.error(`Error processing webhook event ${eventType}:`, error);
+    return { error: error.message || `Failed to process webhook event: ${eventType}` };
+  }
+}
+
+/**
+ * Create a payment from customer to vendor
+ */
+export async function createVendorPayment(
+  customerId: string,
   vendorId: string,
-  metadata: any = {}
-): Promise<Stripe.PaymentIntent> => {
+  amount: number,
+  currency: string = 'usd',
+  description: string,
+  metadata: Record<string, any> = {}
+) {
   try {
     const vendor = await prisma.vendor.findUnique({
       where: { id: vendorId }
     });
 
-    if (!vendor || !vendor.stripeAccountId) {
-      throw new Error('Vendor has no Stripe account');
+    if (!vendor) {
+      throw new Error('Vendor not found');
     }
 
-    if (!vendor.stripeOnboardingComplete) {
-      throw new Error('Vendor has not completed Stripe onboarding');
+    if (!vendor.stripeAccountId) {
+      throw new Error('Vendor has no Stripe Connect account');
     }
 
-    const applicationFee = calculateApplicationFee(amount, vendor.commissionRate);
+    if (!vendor.stripeChargesEnabled) {
+      throw new Error('Vendor does not have charges enabled on their Stripe account');
+    }
 
-    return await stripe.paymentIntents.create({
+    // Calculate platform fee (e.g. 10% of the total amount)
+    const platformFeePercentage = vendor.commissionRate || 10;
+    const platformFeeAmount = Math.round((amount * platformFeePercentage) / 100);
+    
+    // Create a payment intent with the connected account
+    const paymentIntent = await stripe.paymentIntents.create({
       amount: Math.round(amount * 100), // Convert to cents
       currency,
-      application_fee_amount: Math.round(applicationFee * 100),
+      application_fee_amount: platformFeeAmount,
       transfer_data: {
         destination: vendor.stripeAccountId,
       },
+      description,
       metadata: {
         ...metadata,
         vendorId,
-        platformId: process.env.PLATFORM_ID || 'yunike'
-      }
-    });
-  } catch (error) {
-    console.error('Error creating payment intent:', error);
-    throw error;
-  }
-};
-
-/**
- * Create a payment intent for multiple vendors (split payment)
- * Returns payment intent for the total amount and schedules transfers to vendors
- */
-export const createMultiVendorPayment = async (
-  items: Array<{
-    vendorId: string;
-    amount: number;
-    productIds: string[];
-  }>,
-  currency: string,
-  metadata: any = {}
-): Promise<Stripe.PaymentIntent> => {
-  try {
-    // Calculate total amount
-    const totalAmount = items.reduce((sum, item) => sum + item.amount, 0);
-    
-    // Create payment intent for the total amount
-    const paymentIntent = await stripe.paymentIntents.create({
-      amount: Math.round(totalAmount * 100), // Convert to cents
-      currency,
-      metadata: {
-        ...metadata,
-        vendorIds: items.map(item => item.vendorId).join(','),
-        platformId: process.env.PLATFORM_ID || 'yunike',
-        isMultiVendor: 'true'
-      }
+        customerId,
+      },
     });
 
-    // Store transfer information for later processing after payment completes
-    // This would be handled by webhook in production
-    const transferInfo = await Promise.all(items.map(async (item) => {
-      const vendor = await prisma.vendor.findUnique({
-        where: { id: item.vendorId }
-      });
-
-      if (!vendor || !vendor.stripeAccountId) {
-        throw new Error(`Vendor ${item.vendorId} has no Stripe account`);
+    return {
+      success: true,
+      data: {
+        paymentIntent,
+        clientSecret: paymentIntent.client_secret,
       }
-
-      if (!vendor.stripeOnboardingComplete) {
-        throw new Error(`Vendor ${item.vendorId} has not completed Stripe onboarding`);
-      }
-
-      const applicationFee = calculateApplicationFee(item.amount, vendor.commissionRate);
-      const transferAmount = item.amount - applicationFee;
-
-      return {
-        vendorId: item.vendorId,
-        stripeAccountId: vendor.stripeAccountId,
-        amount: Math.round(transferAmount * 100), // Convert to cents
-        applicationFee: Math.round(applicationFee * 100),
-        productIds: item.productIds
-      };
-    }));
-
-    // In production, you'd store transferInfo in your database
-    // to process after payment webhook confirms success
-    console.log('Transfer info for webhook processing:', transferInfo);
-
-    return paymentIntent;
-  } catch (error) {
-    console.error('Error creating multi-vendor payment:', error);
+    };
+  } catch (error: any) {
+    logger.error('Error creating vendor payment:', error);
     throw error;
   }
-};
+}
 
 /**
- * Process transfer to vendor after payment is complete
- * This would be called by webhook in production
+ * Disconnect a vendor's Stripe Connect account
  */
-export const transferToVendor = async (
-  paymentIntentId: string,
-  vendorId: string,
-  amount: number,
-  description: string = ''
-): Promise<Stripe.Transfer> => {
+export async function disconnectStripeAccount(vendorId: string) {
   try {
     const vendor = await prisma.vendor.findUnique({
       where: { id: vendorId }
     });
 
-    if (!vendor || !vendor.stripeAccountId) {
-      throw new Error('Vendor has no Stripe account');
+    if (!vendor) {
+      return { error: 'Vendor not found' };
     }
 
-    // Get payment intent to use as source
-    const paymentIntent = await stripe.paymentIntents.retrieve(paymentIntentId);
-    
-    if (paymentIntent.status !== 'succeeded') {
-      throw new Error('Payment not successful');
+    if (!vendor.stripeAccountId) {
+      return { error: 'Vendor has no connected Stripe account' };
     }
 
-    // Get the charge ID from the payment intent
-    const charges = await stripe.charges.list({
-      payment_intent: paymentIntentId
-    });
-    
-    if (!charges.data.length) {
-      throw new Error('No charges found for this payment intent');
-    }
+    // Store the account ID for logging
+    const stripeAccountId = vendor.stripeAccountId;
 
-    // Create a transfer to the connected account
-    return await stripe.transfers.create({
-      amount: Math.round(amount * 100), // Convert to cents
-      currency: paymentIntent.currency,
-      destination: vendor.stripeAccountId,
-      source_transaction: charges.data[0].id,
-      description,
-      metadata: {
-        paymentIntentId,
-        vendorId,
-        platformId: process.env.PLATFORM_ID || 'yunike'
+    // Update vendor record to remove Stripe association
+    await prisma.vendor.update({
+      where: { id: vendorId },
+      data: {
+        stripeAccountId: null,
+        stripeAccountStatus: null,
+        stripeAccountType: null,
+        stripeOnboardingComplete: false,
+        stripePayoutsEnabled: false,
+        stripeChargesEnabled: false,
+        stripeDetailsSubmitted: false,
+        stripeMetadata: {
+          vendorId: vendorId,
+          userId: vendor.userId,
+        },
       }
     });
-  } catch (error) {
-    console.error('Error transferring to vendor:', error);
-    throw error;
-  }
-};
 
-/**
- * Helper function to calculate platform fee
- */
-const calculateApplicationFee = (amount: number, commissionRate: number): number => {
-  return (amount * commissionRate) / 100;
-};
+    // Log the disconnection
+    logger.info(`Disconnected Stripe account from vendor ${vendorId}`, {
+      vendorId,
+      disconnectedAccountId: stripeAccountId
+    });
 
-/**
- * Map business type to Stripe format
- */
-const mapBusinessType = (businessType: string | null): string | undefined => {
-  if (!businessType) return undefined;
-  
-  const mapping: Record<string, string> = {
-    'INDIVIDUAL': 'individual',
-    'PARTNERSHIP': 'company',
-    'CORPORATION': 'company',
-    'LLC': 'company',
-    'NON_PROFIT': 'non_profit'
-  };
-  
-  return mapping[businessType] || undefined;
-};
-
-/**
- * Map Stripe account status to our enum
- */
-const mapStripeStatus = (account: Stripe.Account): StripeAccountStatus => {
-  if (!account.details_submitted) {
-    return StripeAccountStatus.PENDING;
+    return {
+      error: null,
+      data: {
+        success: true,
+        message: 'Stripe Connect account has been disconnected'
+      }
+    };
+  } catch (error: any) {
+    logger.error('Error disconnecting Stripe account:', error);
+    return { error: error.message || 'Failed to disconnect Stripe account' };
   }
-  
-  if (account.charges_enabled && account.payouts_enabled) {
-    return StripeAccountStatus.ACTIVE;
-  }
-  
-  if (account.requirements?.disabled_reason) {
-    return StripeAccountStatus.DISABLED;
-  }
-  
-  if (account.requirements?.errors && account.requirements.errors.length > 0) {
-    return StripeAccountStatus.REJECTED;
-  }
-  
-  return StripeAccountStatus.RESTRICTED;
-}; 
+}

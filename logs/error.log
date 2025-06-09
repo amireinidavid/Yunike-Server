@@ -747,3 +747,860 @@
 [31mCan't reach database server at `localhost:5444`[39m
 
 [31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 08:29:38:2938 [31merror[39m: [31mGet cart error: [39m
+[31mInvalid `prisma.cart.findUnique()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:147:32[39m
+
+[31m  144 [39m
+[31m  145 // Find cart by ID if provided[39m
+[31m  146 if (cartId) {[39m
+[31m→ 147   cart = await prisma.cart.findUnique([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 08:29:42:2942 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:29:50:2950 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:29:51:2951 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:33:34:3334 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:33:34:3334 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:33:44:3344 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:33:44:3344 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:33:50:3350 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:34:06:346 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:34:06:346 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:34:23:3423 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:34:23:3423 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:34:30:3430 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:34:31:3431 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:34:51:3451 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:34:52:3452 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:34:52:3452 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:34:52:3452 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:41:30:4130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:41:30:4130 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:42:37:4237 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:42:38:4238 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:44:35:4435 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:44:35:4435 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:45:11:4511 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:45:11:4511 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:46:50:4650 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:46:50:4650 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:47:53:4753 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:47:53:4753 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:47:57:4757 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:47:57:4757 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:49:15:4915 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:49:16:4916 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:49:43:4943 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:49:43:4943 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:50:52:5052 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:50:53:5053 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:51:20:5120 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:51:22:5122 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:51:41:5141 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:51:43:5143 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:51:44:5144 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:51:44:5144 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:52:08:528 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:52:08:528 [31merror[39m: [31mAdd item to cart error: You do not have permission to modify this cart[39m
+2025-06-06 08:52:09:529 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:53:11:5311 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:53:27:5327 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:53:52:5352 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:54:06:546 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:54:11:5411 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:54:18:5418 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:54:18:5418 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:04:40:440 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:04:59:459 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:05:01:51 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:09:55:955 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:09:57:957 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:09:59:959 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:05:105 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:06:106 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:07:107 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:08:108 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:09:109 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:11:1011 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:16:1016 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:17:1017 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:18:1018 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:18:1018 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:19:1019 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:19:1019 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:26:1026 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:26:1026 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:27:1027 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:27:1027 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:27:1027 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:27:1027 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:32:1032 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:33:1033 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:33:1033 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:33:1033 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:33:1033 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:33:1033 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:40:1040 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:40:1040 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:41:1041 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:41:1041 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:41:1041 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:41:1041 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:46:1046 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:46:1046 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:46:1046 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:46:1046 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:46:1046 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:46:1046 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:52:1052 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:52:1052 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:52:1052 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:52:1052 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:52:1052 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:52:1052 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:00:110 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:01:111 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:01:111 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:01:111 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:01:111 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:01:111 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:06:116 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:06:116 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:06:116 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:06:116 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:06:116 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:06:116 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:28:1128 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:29:1129 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:30:1130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:30:1130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:30:1130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:30:1130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:30:1130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:12:30:1230 [31merror[39m: [31mGet product error: [39m
+[31mInvalid `prisma.product.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\productController.ts:295:42[39m
+
+[31m  292 const isVendor = !!req.user && req.user.role === 'VENDOR';[39m
+[31m  293 const isAdmin = !!req.user && req.user.role === 'ADMIN';[39m
+[31m  294 [39m
+[31m→ 295 const product = await prisma.product.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:12:32:1232 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:12:33:1233 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:12:52:1252 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:13:15:1315 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:13:25:1325 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:13:26:1326 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:13:36:1336 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:30:00:300 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:33:21:3321 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:33:23:3323 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:33:26:3326 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:33:57:3357 [31merror[39m: [31mGet product error: [39m
+[31mInvalid `prisma.product.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\productController.ts:295:42[39m
+
+[31m  292 const isVendor = !!req.user && req.user.role === 'VENDOR';[39m
+[31m  293 const isAdmin = !!req.user && req.user.role === 'ADMIN';[39m
+[31m  294 [39m
+[31m→ 295 const product = await prisma.product.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:34:04:344 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:16:34:1634 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:16:41:1641 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:16:41:1641 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:16:54:1654 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:20:1720 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:20:1720 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:22:1722 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:23:1723 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:23:1723 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:25:1725 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:25:1725 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:25:1725 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:25:1725 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:25:1725 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:26:1726 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:26:1726 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:26:1726 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:27:1727 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:28:1728 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:28:1728 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:29:1729 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:30:1730 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:30:1730 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:07:317 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:07:317 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:08:318 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:08:318 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:09:319 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:09:319 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:10:3110 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:10:3110 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:11:3111 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:11:3111 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:11:3111 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:12:3112 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:12:3112 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:13:3113 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:15:3115 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:16:3116 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:17:3117 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:18:3118 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:19:3119 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:20:3120 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:21:3121 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:21:3121 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:22:3122 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:22:3122 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:22:3122 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:23:3123 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:23:3123 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:23:3123 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:25:3125 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:26:3126 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:27:3127 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:27:3127 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:27:3127 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:28:3128 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:28:3128 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:29:3129 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:29:3129 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:29:3129 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:29:3129 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:30:3130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:30:3130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:30:3130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:31:3131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:31:3131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:31:3131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:32:3132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:32:3132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:33:3133 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:33:3133 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 19:01:04:14 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:01:04:14 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:01:10:110 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:01:10:110 [31merror[39m: [31mAdd item to cart error: You do not have permission to modify this cart[39m
+2025-06-06 19:02:26:226 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:03:38:338 [31merror[39m: [31mGet cart error: [39m
+[31mInvalid `prisma.cart.findUnique()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:195:32[39m
+
+[31m  192 [39m
+[31m  193 // Find cart by ID if provided[39m
+[31m  194 if (cartId) {[39m
+[31m→ 195   cart = await prisma.cart.findUnique([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 19:06:29:629 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:06:45:645 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:06:45:645 [31merror[39m: [31mAdd item to cart error: You do not have permission to modify this cart[39m
+2025-06-06 19:06:52:652 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+{"detail":{"code":"ETIMEDOUT"},"level":"error","message":"Error retrieving Stripe account status: Request aborted due to timeout being reached (80000ms)","raw":{"detail":{"code":"ETIMEDOUT"},"message":"Request aborted due to timeout being reached (80000ms)"},"service":"yunike-api","stack":"Error: Request aborted due to timeout being reached (80000ms)\n    at C:\\Users\\david ini\\Desktop\\Yunike\\server\\node_modules\\stripe\\cjs\\RequestSender.js:398:41\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-08 21:24:48","type":"StripeConnectionError"}
+{"detail":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.stripe.com","syscall":"getaddrinfo"},"level":"error","message":"Error retrieving Stripe account status: An error occurred with our connection to Stripe. Request was retried 2 times.","raw":{"detail":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.stripe.com","syscall":"getaddrinfo"},"message":"An error occurred with our connection to Stripe. Request was retried 2 times."},"service":"yunike-api","stack":"Error: An error occurred with our connection to Stripe. Request was retried 2 times.\n    at C:\\Users\\david ini\\Desktop\\Yunike\\server\\node_modules\\stripe\\cjs\\RequestSender.js:398:41\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-08 21:30:07","type":"StripeConnectionError"}
+{"detail":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.stripe.com","syscall":"getaddrinfo"},"level":"error","message":"Error retrieving Stripe account status: An error occurred with our connection to Stripe. Request was retried 2 times.","raw":{"detail":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.stripe.com","syscall":"getaddrinfo"},"message":"An error occurred with our connection to Stripe. Request was retried 2 times."},"service":"yunike-api","stack":"Error: An error occurred with our connection to Stripe. Request was retried 2 times.\n    at C:\\Users\\david ini\\Desktop\\Yunike\\server\\node_modules\\stripe\\cjs\\RequestSender.js:398:41\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-08 22:06:59","type":"StripeConnectionError"}
+{"detail":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.stripe.com","syscall":"getaddrinfo"},"level":"error","message":"Error retrieving Stripe account status: An error occurred with our connection to Stripe. Request was retried 2 times.","raw":{"detail":{"code":"ENOTFOUND","errno":-3008,"hostname":"api.stripe.com","syscall":"getaddrinfo"},"message":"An error occurred with our connection to Stripe. Request was retried 2 times."},"service":"yunike-api","stack":"Error: An error occurred with our connection to Stripe. Request was retried 2 times.\n    at C:\\Users\\david ini\\Desktop\\Yunike\\server\\node_modules\\stripe\\cjs\\RequestSender.js:398:41\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-08 22:15:16","type":"StripeConnectionError"}

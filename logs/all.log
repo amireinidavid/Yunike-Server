@@ -1562,3 +1562,1839 @@
 [31mCan't reach database server at `localhost:5444`[39m
 
 [31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-05 10:10:17:1017 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-05 10:10:17:1017 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-05 10:10:17:1017 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-05 10:10:17:1017 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-05 10:11:19:1119 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 10:11:19:1119 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 10:11:19:1119 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 10:11:19:1119 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 10:12:24:1224 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 10:12:25:1225 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=2&limit=12 (TTL: 300s)[39m
+2025-06-05 10:16:31:1631 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 10:16:32:1632 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=3&limit=12 (TTL: 300s)[39m
+2025-06-05 10:19:08:198 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=3&limit=12[39m
+2025-06-05 10:19:08:198 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=3&limit=12[39m
+2025-06-05 10:49:53:4953 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 10:49:53:4953 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 10:49:54:4954 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 10:49:54:4954 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 10:50:38:5038 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 10:50:38:5038 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 10:50:38:5038 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 10:50:38:5038 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 11:00:15:015 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 11:00:15:015 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 11:00:15:015 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 11:00:15:015 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 11:05:54:554 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 11:05:54:554 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 11:05:54:554 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 11:05:54:554 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 11:29:11:2911 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-05 11:29:13:2913 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-05 11:29:13:2913 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-05 11:29:14:2914 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-05 11:40:38:4038 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 11:40:38:4038 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 11:40:38:4038 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 11:40:38:4038 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 13:31:23:3123 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 13:31:23:3123 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 13:37:58:3758 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 13:37:58:3758 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 14:46:29:4629 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 14:46:30:4630 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 14:46:30:4630 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 14:46:30:4630 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 14:47:27:4727 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 14:47:27:4727 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 14:47:27:4727 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 14:47:27:4727 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 14:55:04:554 [34mdebug[39m: [34mRecorded product view: cmbig0bb804t4qd8wl03y7yb7[39m
+2025-06-05 14:55:04:554 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0bb804t4qd8wl03y7yb7 (TTL: 300s)[39m
+2025-06-05 14:55:04:554 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0bb804t4qd8wl03y7yb7[39m
+2025-06-05 14:55:04:554 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0bb804t4qd8wl03y7yb7[39m
+2025-06-05 14:55:04:554 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0bb804t4qd8wl03y7yb7/related?limit=8 (TTL: 1800s)[39m
+2025-06-05 14:55:05:555 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0bb804t4qd8wl03y7yb7/related?limit=8[39m
+2025-06-05 14:55:05:555 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0bb804t4qd8wl03y7yb7/related?limit=8[39m
+2025-06-05 14:56:43:5643 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 14:56:44:5644 [34mdebug[39m: [34mCache set: products:/api/products?category=cmbifxjpx0001vd2zyhpfnlbs&sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 14:56:44:5644 [34mdebug[39m: [34mCache hit: products:/api/products?category=cmbifxjpx0001vd2zyhpfnlbs&sort=newest&page=1&limit=12[39m
+2025-06-05 14:56:44:5644 [34mdebug[39m: [34mCache hit for products:/api/products?category=cmbifxjpx0001vd2zyhpfnlbs&sort=newest&page=1&limit=12[39m
+2025-06-05 14:56:52:5652 [34mdebug[39m: [34mRecorded product view: cmbig09uj04iwqd8wuh8pduap[39m
+2025-06-05 14:56:52:5652 [34mdebug[39m: [34mCache set: product:/api/products/cmbig09uj04iwqd8wuh8pduap (TTL: 300s)[39m
+2025-06-05 14:56:52:5652 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig09uj04iwqd8wuh8pduap[39m
+2025-06-05 14:56:52:5652 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig09uj04iwqd8wuh8pduap[39m
+2025-06-05 14:56:52:5652 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig09uj04iwqd8wuh8pduap/related?limit=8 (TTL: 1800s)[39m
+2025-06-05 14:56:53:5653 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig09uj04iwqd8wuh8pduap/related?limit=8[39m
+2025-06-05 14:56:53:5653 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig09uj04iwqd8wuh8pduap/related?limit=8[39m
+2025-06-05 15:17:15:1715 [34mdebug[39m: [34mCache set: product:/api/products/cmbig09uj04iwqd8wuh8pduap (TTL: 300s)[39m
+2025-06-05 15:17:15:1715 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig09uj04iwqd8wuh8pduap/related?limit=8[39m
+2025-06-05 15:17:15:1715 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig09uj04iwqd8wuh8pduap/related?limit=8[39m
+2025-06-05 15:17:16:1716 [34mdebug[39m: [34mRecorded product view: cmbig09uj04iwqd8wuh8pduap[39m
+2025-06-05 15:30:19:3019 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 15:30:19:3019 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 15:30:19:3019 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 15:30:19:3019 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mRecorded product view: cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0b6504s8qd8whtxonk4d (TTL: 300s)[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8 (TTL: 1800s)[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:41:3041 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 15:30:42:3042 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:04:494 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0b6504s8qd8whtxonk4d (TTL: 300s)[39m
+2025-06-05 19:49:04:494 [34mdebug[39m: [34mRecorded product view: cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:04:494 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8 (TTL: 1800s)[39m
+2025-06-05 19:49:05:495 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:05:495 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:05:495 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:05:495 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:06:496 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:07:497 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:08:498 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:08:498 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:08:498 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:08:498 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:08:498 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:08:498 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:09:499 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:09:499 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:09:499 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:09:499 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:09:499 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:09:499 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:09:499 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:09:499 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:09:499 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:09:499 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:09:499 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:10:4910 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:11:4911 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:11:4911 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:12:4912 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:12:4912 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:12:4912 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:12:4912 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:12:4912 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:12:4912 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:12:4912 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:12:4912 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:12:4912 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:12:4912 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:12:4912 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:12:4912 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:13:4913 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:14:4914 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:15:4915 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 19:49:16:4916 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:16:4916 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:16:4916 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:16:4916 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:16:4916 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:16:4916 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:16:4916 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:17:4917 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:17:4917 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:17:4917 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:17:4917 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:17:4917 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:20:4920 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:20:4920 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:20:4920 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:20:4920 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:20:4920 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:20:4920 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:20:4920 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:20:4920 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:20:4920 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 19:49:20:4920 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:36:11:3611 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 20:36:12:3612 [34mdebug[39m: [34mCache set: products:/api/products?page=1&limit=20&sortBy=newest (TTL: 300s)[39m
+2025-06-05 20:36:12:3612 [34mdebug[39m: [34mCache hit: products:/api/products?page=1&limit=20&sortBy=newest[39m
+2025-06-05 20:36:12:3612 [34mdebug[39m: [34mCache hit for products:/api/products?page=1&limit=20&sortBy=newest[39m
+2025-06-05 20:37:00:370 [34mdebug[39m: [34mCache hit: products:/api/products?page=1&limit=20&sortBy=newest[39m
+2025-06-05 20:37:00:370 [34mdebug[39m: [34mCache hit for products:/api/products?page=1&limit=20&sortBy=newest[39m
+2025-06-05 20:37:00:370 [34mdebug[39m: [34mCache hit: products:/api/products?page=1&limit=20&sortBy=newest[39m
+2025-06-05 20:37:00:370 [34mdebug[39m: [34mCache hit for products:/api/products?page=1&limit=20&sortBy=newest[39m
+2025-06-05 20:37:17:3717 [34mdebug[39m: [34mCache set: vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest (TTL: 300s)[39m
+2025-06-05 20:37:17:3717 [34mdebug[39m: [34mCache hit: vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest[39m
+2025-06-05 20:37:17:3717 [34mdebug[39m: [34mCache hit for vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest[39m
+2025-06-05 20:37:17:3717 [34mdebug[39m: [34mCache hit: vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest[39m
+2025-06-05 20:37:17:3717 [34mdebug[39m: [34mCache hit for vendor-products:/api/products/vendor/cmb3bgnj30002xzioltyl40ts?page=1&limit=20&sortBy=newest[39m
+2025-06-05 20:48:27:4827 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 20:48:27:4827 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 20:48:27:4827 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 20:48:27:4827 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mRecorded product view: cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0b6504s8qd8whtxonk4d (TTL: 300s)[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8 (TTL: 1800s)[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:57:4857 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:58:4858 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b6504s8qd8whtxonk4d/related?limit=8[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 20:48:59:4859 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b6504s8qd8whtxonk4d[39m
+2025-06-05 21:11:16:1116 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 21:11:16:1116 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 21:11:16:1116 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 21:11:16:1116 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-05 21:11:46:1146 [34mdebug[39m: [34mRecorded product view: cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-05 21:11:46:1146 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0b9204srqd8wt85xfjl8 (TTL: 300s)[39m
+2025-06-05 21:11:46:1146 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-05 21:11:46:1146 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-05 21:11:47:1147 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8 (TTL: 1800s)[39m
+2025-06-05 21:11:47:1147 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8[39m
+2025-06-05 21:11:47:1147 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8[39m
+2025-06-05 21:53:14:5314 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0b9204srqd8wt85xfjl8 (TTL: 300s)[39m
+2025-06-05 21:53:14:5314 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-05 21:53:14:5314 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-05 21:53:15:5315 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8 (TTL: 1800s)[39m
+2025-06-05 21:53:15:5315 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8[39m
+2025-06-05 21:53:15:5315 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8[39m
+2025-06-05 21:53:17:5317 [34mdebug[39m: [34mRecorded product view: cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-05 22:01:21:121 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0b9204srqd8wt85xfjl8 (TTL: 300s)[39m
+2025-06-05 22:01:21:121 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-05 22:01:21:121 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-05 22:01:21:121 [34mdebug[39m: [34mRecorded product view: cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-05 22:01:21:121 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8[39m
+2025-06-05 22:01:21:121 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8[39m
+2025-06-05 22:01:22:122 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8[39m
+2025-06-05 22:01:22:122 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8[39m
+2025-06-05 22:03:26:326 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 22:03:27:327 [34mdebug[39m: [34mCache set: products:/api/products?category=cmbifxjqs0003vd2z8n13qz0o&sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-05 22:03:27:327 [34mdebug[39m: [34mCache hit: products:/api/products?category=cmbifxjqs0003vd2z8n13qz0o&sort=newest&page=1&limit=12[39m
+2025-06-05 22:03:27:327 [34mdebug[39m: [34mCache hit for products:/api/products?category=cmbifxjqs0003vd2z8n13qz0o&sort=newest&page=1&limit=12[39m
+2025-06-05 22:04:02:42 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-05 22:04:03:43 [34mdebug[39m: [34mCache set: products:/api/products?category=cmbifxjqs0003vd2z8n13qz0o&sort=newest&page=2&limit=12 (TTL: 300s)[39m
+2025-06-05 22:04:24:424 [34mdebug[39m: [34mRecorded product view: cmbig084n046yqd8wp61i2s9n[39m
+2025-06-05 22:04:24:424 [34mdebug[39m: [34mCache set: product:/api/products/cmbig084n046yqd8wp61i2s9n (TTL: 300s)[39m
+2025-06-05 22:04:24:424 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig084n046yqd8wp61i2s9n[39m
+2025-06-05 22:04:24:424 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig084n046yqd8wp61i2s9n[39m
+2025-06-05 22:04:26:426 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig084n046yqd8wp61i2s9n/related?limit=8 (TTL: 1800s)[39m
+2025-06-05 22:04:26:426 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig084n046yqd8wp61i2s9n/related?limit=8[39m
+2025-06-05 22:04:26:426 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig084n046yqd8wp61i2s9n/related?limit=8[39m
+2025-06-05 22:06:48:648 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig084n046yqd8wp61i2s9n[39m
+2025-06-05 22:06:48:648 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig084n046yqd8wp61i2s9n[39m
+2025-06-05 22:06:48:648 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig084n046yqd8wp61i2s9n[39m
+2025-06-05 22:06:48:648 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig084n046yqd8wp61i2s9n[39m
+2025-06-05 22:06:49:649 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig084n046yqd8wp61i2s9n/related?limit=8[39m
+2025-06-05 22:06:49:649 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig084n046yqd8wp61i2s9n/related?limit=8[39m
+2025-06-05 22:06:49:649 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig084n046yqd8wp61i2s9n/related?limit=8[39m
+2025-06-05 22:06:49:649 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig084n046yqd8wp61i2s9n/related?limit=8[39m
+2025-06-06 06:53:41:5341 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 06:53:44:5344 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 06:53:44:5344 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 06:53:46:5346 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 07:12:00:120 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 07:12:00:120 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-06 07:12:01:121 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 07:12:01:121 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 07:12:20:1220 [34mdebug[39m: [34mRecorded product view: cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 07:12:20:1220 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t (TTL: 300s)[39m
+2025-06-06 07:12:20:1220 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 07:12:20:1220 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 07:12:20:1220 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8 (TTL: 1800s)[39m
+2025-06-06 07:12:20:1220 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 07:12:20:1220 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 07:21:25:2125 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 07:21:26:2126 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 07:21:26:2126 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 07:21:26:2126 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 07:22:47:2247 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 07:22:47:2247 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 07:22:47:2247 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 07:22:47:2247 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 07:29:43:2943 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 07:29:45:2945 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 07:29:46:2946 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 07:29:48:2948 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 07:41:54:4154 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t (TTL: 300s)[39m
+2025-06-06 07:41:54:4154 [34mdebug[39m: [34mRecorded product view: cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 07:41:54:4154 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 07:41:54:4154 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 07:41:55:4155 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 07:41:55:4155 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 07:41:56:4156 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 07:41:56:4156 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 07:59:15:5915 [34mdebug[39m: [34mRecorded product view: cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 07:59:15:5915 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t (TTL: 300s)[39m
+2025-06-06 07:59:17:5917 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8 (TTL: 1800s)[39m
+2025-06-06 08:00:44:044 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:00:44:044 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:00:44:044 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:00:44:044 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:00:46:046 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:00:46:046 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:00:47:047 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:00:47:047 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:05:52:552 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t (TTL: 300s)[39m
+2025-06-06 08:05:52:552 [34mdebug[39m: [34mRecorded product view: cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:05:53:553 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:05:53:553 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:05:59:559 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:05:59:559 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:06:00:60 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:06:01:61 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:08:34:834 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 08:08:35:835 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 08:08:35:835 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 08:08:35:835 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 08:10:22:1022 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 08:10:23:1023 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 08:10:23:1023 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 08:10:23:1023 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 08:11:25:1125 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 08:11:26:1126 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 08:11:26:1126 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 08:11:26:1126 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 08:12:10:1210 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 08:12:10:1210 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 08:12:10:1210 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 08:12:10:1210 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 08:20:19:2019 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t (TTL: 300s)[39m
+2025-06-06 08:20:19:2019 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:20:19:2019 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:20:20:2020 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:20:20:2020 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:20:20:2020 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:20:20:2020 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:20:21:2021 [34mdebug[39m: [34mRecorded product view: cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:21:00:210 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 08:21:00:210 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-06 08:21:00:210 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 08:21:00:210 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 08:21:10:2110 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:21:10:2110 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:21:11:2111 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:21:11:2111 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:21:11:2111 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:21:11:2111 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:21:12:2112 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:21:12:2112 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:23:40:2340 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:23:40:2340 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:23:41:2341 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:23:41:2341 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:24:05:245 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:24:05:245 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:24:05:245 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:24:05:245 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:28:17:2817 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t (TTL: 300s)[39m
+2025-06-06 08:28:18:2818 [34mdebug[39m: [34mRecorded product view: cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:28:19:2819 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:28:19:2819 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:29:31:2931 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:29:31:2931 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:29:32:2932 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:29:32:2932 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 08:29:36:2936 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8 (TTL: 1800s)[39m
+2025-06-06 08:29:36:2936 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:29:36:2936 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 08:29:38:2938 [31merror[39m: [31mGet cart error: [39m
+[31mInvalid `prisma.cart.findUnique()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:147:32[39m
+
+[31m  144 [39m
+[31m  145 // Find cart by ID if provided[39m
+[31m  146 if (cartId) {[39m
+[31m→ 147   cart = await prisma.cart.findUnique([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 08:29:42:2942 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:29:50:2950 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:29:51:2951 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:33:34:3334 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:33:34:3334 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:33:44:3344 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:33:44:3344 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:33:50:3350 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:34:06:346 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:34:06:346 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:34:23:3423 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:34:23:3423 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:34:30:3430 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:34:31:3431 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:34:51:3451 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:34:52:3452 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:34:52:3452 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:34:52:3452 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:41:30:4130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:41:30:4130 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:42:37:4237 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:42:38:4238 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:44:35:4435 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:44:35:4435 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:45:11:4511 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:45:11:4511 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:46:50:4650 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:46:50:4650 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:47:53:4753 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:47:53:4753 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:47:57:4757 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:47:57:4757 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:49:15:4915 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:49:16:4916 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:49:43:4943 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:49:43:4943 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:50:52:5052 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:50:53:5053 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:51:20:5120 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:51:22:5122 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:51:30:5130 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 08:51:30:5130 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-06 08:51:30:5130 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 08:51:30:5130 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 08:51:41:5141 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:51:43:5143 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:51:44:5144 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:51:44:5144 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:51:45:5145 [34mdebug[39m: [34mRecorded product view: cmbig0axm04qmqd8wo9ufdclq[39m
+2025-06-06 08:51:45:5145 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0axm04qmqd8wo9ufdclq (TTL: 300s)[39m
+2025-06-06 08:51:45:5145 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0axm04qmqd8wo9ufdclq[39m
+2025-06-06 08:51:45:5145 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0axm04qmqd8wo9ufdclq[39m
+2025-06-06 08:51:45:5145 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0axm04qmqd8wo9ufdclq/related?limit=8 (TTL: 1800s)[39m
+2025-06-06 08:51:46:5146 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0axm04qmqd8wo9ufdclq/related?limit=8[39m
+2025-06-06 08:51:46:5146 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0axm04qmqd8wo9ufdclq/related?limit=8[39m
+2025-06-06 08:52:08:528 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:52:08:528 [31merror[39m: [31mAdd item to cart error: You do not have permission to modify this cart[39m
+2025-06-06 08:52:09:529 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 08:53:11:5311 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:53:27:5327 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:53:52:5352 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:54:06:546 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:54:11:5411 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:54:18:5418 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 08:54:18:5418 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:04:40:440 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:04:59:459 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:05:01:51 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:09:34:934 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 09:09:35:935 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 09:09:35:935 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 09:09:37:937 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 09:09:55:955 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:09:57:957 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:09:59:959 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:05:105 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:06:106 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:07:107 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:08:108 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:09:109 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:11:1011 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:16:1016 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:17:1017 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:18:1018 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:18:1018 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:19:1019 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:19:1019 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:26:1026 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:26:1026 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:27:1027 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:27:1027 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:27:1027 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:27:1027 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:32:1032 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:33:1033 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:33:1033 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:33:1033 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:33:1033 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:33:1033 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:40:1040 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:40:1040 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:41:1041 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:41:1041 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:41:1041 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:41:1041 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:46:1046 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:46:1046 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:46:1046 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:46:1046 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:46:1046 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:46:1046 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:52:1052 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:52:1052 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:52:1052 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:52:1052 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:52:1052 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:10:52:1052 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:00:110 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:01:111 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:01:111 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:01:111 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:01:111 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:01:111 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:06:116 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:06:116 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:06:116 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:06:116 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:06:116 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:06:116 [31merror[39m: [31mCart initialization error: [39m
+[31mInvalid `prisma.cart.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:31:46[39m
+
+[31m  28 [39m
+[31m  29 // Check if user already has a cart[39m
+[31m  30 if (userId) {[39m
+[31m→ 31   const existingCart = await prisma.cart.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:11:28:1128 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:29:1129 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:30:1130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:30:1130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:30:1130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:30:1130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:30:1130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:30:1130 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-06 09:11:31:1131 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:31:1131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:11:32:1132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:12:30:1230 [31merror[39m: [31mGet product error: [39m
+[31mInvalid `prisma.product.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\productController.ts:295:42[39m
+
+[31m  292 const isVendor = !!req.user && req.user.role === 'VENDOR';[39m
+[31m  293 const isAdmin = !!req.user && req.user.role === 'ADMIN';[39m
+[31m  294 [39m
+[31m→ 295 const product = await prisma.product.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:12:32:1232 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:12:33:1233 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:12:35:1235 [34mdebug[39m: [34mRecorded product view: cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 09:12:35:1235 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t (TTL: 300s)[39m
+2025-06-06 09:12:35:1235 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8 (TTL: 1800s)[39m
+2025-06-06 09:12:52:1252 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:13:15:1315 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:13:18:1318 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 09:13:18:1318 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 09:13:18:1318 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 09:13:18:1318 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 09:13:25:1325 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:13:26:1326 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:13:26:1326 [34mdebug[39m: [34mRecorded product view: cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-06 09:13:26:1326 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0b9204srqd8wt85xfjl8 (TTL: 300s)[39m
+2025-06-06 09:13:26:1326 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-06 09:13:26:1326 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-06 09:13:27:1327 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8 (TTL: 1800s)[39m
+2025-06-06 09:13:27:1327 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8[39m
+2025-06-06 09:13:27:1327 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8[39m
+2025-06-06 09:13:36:1336 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:30:00:300 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:33:21:3321 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:33:23:3323 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:33:26:3326 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 09:33:57:3357 [31merror[39m: [31mGet product error: [39m
+[31mInvalid `prisma.product.findFirst()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\productController.ts:295:42[39m
+
+[31m  292 const isVendor = !!req.user && req.user.role === 'VENDOR';[39m
+[31m  293 const isAdmin = !!req.user && req.user.role === 'ADMIN';[39m
+[31m  294 [39m
+[31m→ 295 const product = await prisma.product.findFirst([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 09:34:00:340 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0b9204srqd8wt85xfjl8 (TTL: 300s)[39m
+2025-06-06 09:34:00:340 [34mdebug[39m: [34mRecorded product view: cmbig0b9204srqd8wt85xfjl8[39m
+2025-06-06 09:34:00:340 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8[39m
+2025-06-06 09:34:00:340 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0b9204srqd8wt85xfjl8/related?limit=8[39m
+2025-06-06 09:34:04:344 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:13:45:1345 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 14:13:45:1345 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 14:13:45:1345 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 14:13:46:1346 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 14:15:47:1547 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 14:15:47:1547 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-06 14:15:48:1548 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 14:15:48:1548 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 14:16:19:1619 [34mdebug[39m: [34mRecorded product view: cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 14:16:20:1620 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t (TTL: 300s)[39m
+2025-06-06 14:16:20:1620 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 14:16:20:1620 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 14:16:21:1621 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8 (TTL: 1800s)[39m
+2025-06-06 14:16:22:1622 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 14:16:22:1622 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 14:16:34:1634 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:16:41:1641 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:16:41:1641 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:16:54:1654 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:20:1720 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:20:1720 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:22:1722 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:23:1723 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:23:1723 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:25:1725 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:25:1725 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:25:1725 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:25:1725 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:25:1725 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:26:1726 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:26:1726 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:26:1726 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:27:1727 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:28:1728 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:28:1728 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:29:1729 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:30:1730 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:17:30:1730 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 14:26:52:2652 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 14:26:52:2652 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 14:26:53:2653 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 14:26:53:2653 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 18:30:28:3028 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 18:30:28:3028 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-06 18:30:29:3029 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 18:30:29:3029 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 18:31:07:317 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:07:317 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:08:318 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:08:318 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:09:319 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:09:319 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:10:3110 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:10:3110 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:11:3111 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:11:3111 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:11:3111 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:12:3112 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:12:3112 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:13:3113 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:15:3115 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:16:3116 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:17:3117 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:18:3118 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:19:3119 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:20:3120 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:21:3121 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:21:3121 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:22:3122 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:22:3122 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:22:3122 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:23:3123 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:23:3123 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:23:3123 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:25:3125 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:26:3126 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:27:3127 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:27:3127 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:27:3127 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:28:3128 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:28:3128 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:29:3129 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:29:3129 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:29:3129 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:29:3129 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:30:3130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:30:3130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:30:3130 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:31:3131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:31:3131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:31:3131 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:32:3132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:32:3132 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:33:3133 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:31:33:3133 [31merror[39m: [31mGet cart error: Cart not found[39m
+2025-06-06 18:59:21:5921 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 18:59:21:5921 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-06 18:59:22:5922 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 18:59:22:5922 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 19:00:07:07 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t (TTL: 300s)[39m
+2025-06-06 19:00:07:07 [34mdebug[39m: [34mRecorded product view: cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 19:00:07:07 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 19:00:08:08 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 19:00:10:010 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8 (TTL: 1800s)[39m
+2025-06-06 19:00:11:011 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 19:00:11:011 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 19:01:04:14 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:01:04:14 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:01:10:110 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:01:10:110 [31merror[39m: [31mAdd item to cart error: You do not have permission to modify this cart[39m
+2025-06-06 19:02:26:226 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:03:38:338 [31merror[39m: [31mGet cart error: [39m
+[31mInvalid `prisma.cart.findUnique()` invocation in[39m
+[31mC:\Users\david ini\Desktop\Yunike\server\controllers\cartController.ts:195:32[39m
+
+[31m  192 [39m
+[31m  193 // Find cart by ID if provided[39m
+[31m  194 if (cartId) {[39m
+[31m→ 195   cart = await prisma.cart.findUnique([39m
+[31mCan't reach database server at `localhost:5444`[39m
+
+[31mPlease make sure your database server is running at `localhost:5444`.[39m
+2025-06-06 19:06:29:629 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:06:45:645 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:06:45:645 [31merror[39m: [31mAdd item to cart error: You do not have permission to modify this cart[39m
+2025-06-06 19:06:52:652 [31merror[39m: [31mGet cart error: You do not have permission to access this cart[39m
+2025-06-06 19:07:06:76 [34mdebug[39m: [34mCache set: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t (TTL: 300s)[39m
+2025-06-06 19:07:06:76 [34mdebug[39m: [34mCache hit: product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 19:07:06:76 [34mdebug[39m: [34mCache hit for product:/api/products/cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 19:07:06:76 [34mdebug[39m: [34mRecorded product view: cmbig0awl04qfqd8wb2k5vt0t[39m
+2025-06-06 19:07:06:76 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 19:07:06:76 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 19:07:07:77 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 19:07:07:77 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbig0awl04qfqd8wb2k5vt0t/related?limit=8[39m
+2025-06-06 19:08:23:823 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 19:08:23:823 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-06 19:08:23:823 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 19:08:23:823 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 19:11:45:1145 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 19:11:45:1145 [34mdebug[39m: [34mCache set: products:/api/products?sort=price_asc&page=1&limit=12 (TTL: 300s)[39m
+2025-06-06 19:14:51:1451 [34mdebug[39m: [34mRecorded product view: cmbifc6zp01xh1mmp4al4ogd3[39m
+2025-06-06 19:14:51:1451 [34mdebug[39m: [34mCache set: product:/api/products/cmbifc6zp01xh1mmp4al4ogd3 (TTL: 300s)[39m
+2025-06-06 19:14:51:1451 [34mdebug[39m: [34mCache hit: product:/api/products/cmbifc6zp01xh1mmp4al4ogd3[39m
+2025-06-06 19:14:51:1451 [34mdebug[39m: [34mCache hit for product:/api/products/cmbifc6zp01xh1mmp4al4ogd3[39m
+2025-06-06 19:14:51:1451 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbifc6zp01xh1mmp4al4ogd3/related?limit=8 (TTL: 1800s)[39m
+2025-06-06 19:14:51:1451 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbifc6zp01xh1mmp4al4ogd3/related?limit=8[39m
+2025-06-06 19:14:51:1451 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbifc6zp01xh1mmp4al4ogd3/related?limit=8[39m
+2025-06-06 19:16:14:1614 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 19:16:15:1615 [34mdebug[39m: [34mCache set: products:/api/products?category=cmbifboma00001mmpfpagqy6s&sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-06 19:16:15:1615 [34mdebug[39m: [34mCache hit: products:/api/products?category=cmbifboma00001mmpfpagqy6s&sort=newest&page=1&limit=12[39m
+2025-06-06 19:16:15:1615 [34mdebug[39m: [34mCache hit for products:/api/products?category=cmbifboma00001mmpfpagqy6s&sort=newest&page=1&limit=12[39m
+2025-06-06 19:16:22:1622 [34mdebug[39m: [34mRecorded product view: cmbifcacf02fp1mmprc2cpz57[39m
+2025-06-06 19:16:22:1622 [34mdebug[39m: [34mCache set: product:/api/products/cmbifcacf02fp1mmprc2cpz57 (TTL: 300s)[39m
+2025-06-06 19:16:22:1622 [34mdebug[39m: [34mCache hit: product:/api/products/cmbifcacf02fp1mmprc2cpz57[39m
+2025-06-06 19:16:22:1622 [34mdebug[39m: [34mCache hit for product:/api/products/cmbifcacf02fp1mmprc2cpz57[39m
+2025-06-06 19:16:22:1622 [34mdebug[39m: [34mCache set: related-products:/api/products/cmbifcacf02fp1mmprc2cpz57/related?limit=8 (TTL: 1800s)[39m
+2025-06-06 19:16:22:1622 [34mdebug[39m: [34mCache hit: related-products:/api/products/cmbifcacf02fp1mmprc2cpz57/related?limit=8[39m
+2025-06-06 19:16:22:1622 [34mdebug[39m: [34mCache hit for related-products:/api/products/cmbifcacf02fp1mmprc2cpz57/related?limit=8[39m
+2025-06-06 19:21:19:2119 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 19:21:19:2119 [34mdebug[39m: [34mCache set: products:/api/products?sort=newest&page=1&limit=12 (TTL: 300s)[39m
+2025-06-06 19:21:19:2119 [34mdebug[39m: [34mCache hit: products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 19:21:19:2119 [34mdebug[39m: [34mCache hit for products:/api/products?sort=newest&page=1&limit=12[39m
+2025-06-06 19:56:20:5620 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 19:56:22:5622 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 19:56:22:5622 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 19:56:23:5623 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 20:15:51:1551 [34mdebug[39m: [34mRecorded search query: [39m
+2025-06-06 20:15:51:1551 [34mdebug[39m: [34mCache set: products:/api/products?page=1&limit=20&sortBy=newest (TTL: 300s)[39m
+2025-06-06 20:15:51:1551 [34mdebug[39m: [34mCache hit: products:/api/products?page=1&limit=20&sortBy=newest[39m
+2025-06-06 20:15:51:1551 [34mdebug[39m: [34mCache hit for products:/api/products?page=1&limit=20&sortBy=newest[39m
+2025-06-06 20:34:53:3453 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 20:34:54:3454 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 20:34:54:3454 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 20:34:54:3454 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 20:58:46:5846 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 20:58:46:5846 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 20:58:47:5847 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 20:58:47:5847 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 21:08:28:828 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 21:08:29:829 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 21:08:29:829 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 21:08:29:829 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 21:10:32:1032 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 21:10:33:1033 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 21:10:33:1033 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 21:10:34:1034 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 21:12:15:1215 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 21:12:15:1215 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 21:12:15:1215 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 21:12:15:1215 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 21:18:02:182 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 21:18:03:183 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 21:18:03:183 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 21:18:03:183 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-06 21:24:57:2457 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-06 21:24:57:2457 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-06 21:24:57:2457 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-06 21:24:57:2457 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-07 07:54:26:5426 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-07 07:54:26:5426 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-07 07:54:26:5426 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-07 07:54:27:5427 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-07 07:58:40:5840 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-07 07:58:41:5841 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-07 07:58:41:5841 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-07 07:58:41:5841 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-07 08:20:39:2039 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-07 08:20:40:2040 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-07 08:20:40:2040 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-07 08:20:41:2041 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-07 22:16:54:1654 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-07 22:16:54:1654 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-07 22:16:54:1654 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-07 22:16:54:1654 [32minfo[39m: [32mEvent service initialized[39m
+2025-06-07 22:23:20:2320 [32minfo[39m: [32mSocket.IO server initialized[39m
+2025-06-07 22:23:21:2321 [32minfo[39m: [32mCache service connected to Redis[39m
+2025-06-07 22:23:21:2321 [32minfo[39m: [32mSubscribed to app:events channel[39m
+2025-06-07 22:23:21:2321 [32minfo[39m: [32mEvent service initialized[39m
