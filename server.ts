@@ -16,6 +16,7 @@ import accountRoutes from './routes/accountRoutes';
 import productRoutes from './routes/productRoutes';
 import customerAccountRoutes from './routes/customerAccountRoute';
 import stripeRoutes from './routes/stripeRoutes';
+import checkoutRoutes from './routes/checkoutRoutes';
 
 // Services
 import { redisClient } from './services/redisService';
@@ -217,6 +218,7 @@ app.use('/api/products', productRoutes);
 app.use('/api/customer', customerAccountRoutes);
 app.use('/api/cart', cartRoutes);
 app.use('/api/stripe', stripeRoutes);
+app.use('/api/checkout', checkoutRoutes);
 
 // Special middleware for Stripe webhook
 app.use('/api/stripe/webhook', express.raw({ type: 'application/json' }));

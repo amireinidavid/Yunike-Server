@@ -93,7 +93,7 @@ export const initializeCart = async (req: Request, res: Response) => {
             }
           });
 
-          logger.info(`Cart ${existingSessionCart.id} converted from guest to user cart for user ${userId}`);
+          logger.info(`[CLAIM] Cart ${existingSessionCart.id} claimed for user ${userId} in initializeCart`);
           return res.status(200).json({
             success: true,
             data: fullCart
@@ -207,7 +207,7 @@ export const getCart = async (req: Request, res: Response) => {
             expiresAt: null  // User carts don't expire
           }
         });
-        logger.info(`Cart ${cart.id} converted from guest to user cart for user ${userId}`);
+        logger.info(`[CLAIM] Cart ${cart.id} claimed for user ${userId} in getCart`);
       }
     } 
     // Find cart by session ID
@@ -246,6 +246,7 @@ export const getCart = async (req: Request, res: Response) => {
     if (cart.userId && cart.userId !== userId) {
       throw new UnauthorizedError('You do not have permission to access this cart');
     }
+    logger.info(`Cart ${cart.id} found for user ${userId}`);
 
     // Get cart with items
     const fullCart = await prisma.cart.findUnique({

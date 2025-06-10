@@ -740,6 +740,7 @@ model Order {
   status            OrderStatus   @default(PENDING)
   totalAmount       Float
   subtotalAmount    Float
+  metadata          String
   shippingAmount    Float
   taxAmount         Float
   discountAmount    Float         @default(0)
